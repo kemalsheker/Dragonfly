@@ -3,10 +3,12 @@ package model.entity.drone;
 
 
 import controller.CellController;
+import controller.DroneController;
 import javafx.scene.input.KeyCode;
 import model.Cell;
 import model.entity.Entity;
 import view.SelectableView;
+import view.drone.DroneView;
 import view.river.RiverView;
 
 import java.lang.reflect.Field;
@@ -386,6 +388,8 @@ public class Drone extends Entity {
         this.currentPositionI = currentPositionI;
 
         notifiesListeners(Thread.currentThread().getStackTrace()[1].getMethodName(),oldValue, newValue);
+        updateItIsOver();
+        checkAndNotifyOnWaterState();
     }
 
     public Integer getCurrentPositionJ() {
@@ -403,14 +407,24 @@ public class Drone extends Entity {
         this.currentPositionJ = currentPositionJ;
 
         notifiesListeners(Thread.currentThread().getStackTrace()[1].getMethodName(),oldValue, newValue);
+        updateItIsOver();
+        checkAndNotifyOnWaterState();
     }
 
     public List<SelectableView> getOnTopOfList() {
         return onTopOfList;
     }
 
+
     public void addOnTopOfDroneList(SelectableView onTopOf) {
         this.onTopOfList.add(onTopOf);
+    }
+
+    public synchronized void updateItIsOver() {
+        DroneView droneView = DroneController.getInstance().getDroneViewFrom(this.getUniqueID());
+        List<SelectableView> selectableViewList = CellController.getInstance().getOverSelectableView(droneView);
+        this.setOnTopOfList(selectableViewList);
+        checkAndNotifyOnWaterState(); // Check and notify water state
     }
 
     public Double getCurrentBattery() {
@@ -582,6 +596,8 @@ public class Drone extends Entity {
         notifiesListeners(Thread.currentThread().getStackTrace()[1].getMethodName(),oldValue, newValue);
     }
 
+
+
     public boolean isOnWater(){
 
         if(onTopOfList.isEmpty()){
@@ -594,6 +610,11 @@ public class Drone extends Entity {
         }
 
         return false;
+    }
+
+    private void checkAndNotifyOnWaterState() {
+        boolean onWater = isOnWater();
+        notifiesListeners("isOnWater", !onWater, onWater);
     }
 
     public Boolean isLost() {

@@ -2,6 +2,7 @@ package controller;
 
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
+import jettyDeneme.DroneData;
 import model.Cell;
 import model.entity.Hospital;
 import model.entity.drone.Drone;
@@ -233,10 +234,12 @@ public class DroneKeyBoardController extends DroneController {
 
         DroneView droneView = new DroneViewImpl(uniqueID, droneLabel, currentCellView);
         DroneBusinessObject.updateDistances(drone);
-
         droneViewMap.put(uniqueID, droneView);
-
         drone.addListener(droneView);
+
+
+        DroneData droneData = new DroneData(drone);
+        drone.addListener(droneData);
 
         drone.setSelected(true);
 

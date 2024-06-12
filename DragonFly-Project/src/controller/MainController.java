@@ -12,6 +12,7 @@ import javafx.scene.control.*;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import jettyDeneme.DroneApi;
 import model.entity.*;
 import model.entity.boat.Boat;
 import model.entity.drone.Drone;
@@ -26,6 +27,8 @@ import view.river.RiverView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+
 
 public class MainController extends Application {
 
@@ -95,6 +98,7 @@ public class MainController extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
 
+        new Thread(new DroneApi()).start();
 
     }
 

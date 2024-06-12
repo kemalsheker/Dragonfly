@@ -1,0 +1,22 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¯€³8áĞÀ‹ø1J$42fedae4-431a-4226-809d-2e80f3a44c95
+}
+java:S1161":Add the "@Override" annotation above this method signature(Üâî 8ıĞÀ‹ø1J$1c41946a-4663-4bfc-ba6b-47116f0dd40f
+˜
+java:S1989'"PHandle the following exception that could be thrown by "getWriter": IOException.(Ğ¯Ìíùÿÿÿÿ8ˆÑÀ‹ø1J$d52b9664-02e5-4348-ac7c-2386eb90ef78
+“
+java:S1989-"PHandle the following exception that could be thrown by "getWriter": IOException.(´Õşê8‰ÑÀ‹ø1J$2220b92c-3727-41a2-ad84-96b8c3b6fddc
+˜
+java:S19897"PHandle the following exception that could be thrown by "getWriter": IOException.(Ğ¯Ìíùÿÿÿÿ8‹ÑÀ‹ø1J$4a5c44fc-b57e-4bcc-8982-2ab6d9e44988
+€
+java:S1128	"=Remove this unused import 'controller.EnvironmentController'.(Îù”í8ÑÀ‹ø1J$c3b9cf38-3747-44d7-9eaf-d8cdafad06b0
+‹
+java:S1128"CRemove this unused import 'model.entity.drone.DroneBusinessObject'.(ëªüÃøÿÿÿÿ8ÑÀ‹ø1J$28ec6d09-0449-4531-bdea-2871a9f69437
+~
+java:S1128"6Remove this unused import 'org.eclipse.jetty.util.IO'.(Å½äüÿÿÿÿ8ÑÀ‹ø1J$c0f037cb-d7fa-4c4d-b89e-32d58da0e720
+s
+java:S1128"0Remove this unused import 'view.SelectableView'.(Œ ë¾8ÑÀ‹ø1J$be85d0ef-d4e1-494c-b2d7-50a7bec57add
+a
+java:S1128"Remove this duplicated import.(–§8ÑÀ‹ø1J$40efe50d-2e06-4ea5-ac25-a5ccb4ec711e
+v
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ÑÀ‹ø1J$964e172f-dcc5-42ad-93e3-61dd34e38a1b

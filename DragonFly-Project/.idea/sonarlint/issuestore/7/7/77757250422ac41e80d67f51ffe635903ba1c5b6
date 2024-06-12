@@ -1,0 +1,35 @@
+
+k
+java:S3740H"/Provide the parametrized type for this generic.(³¤§ÁJ$de27a2e5-3bf7-4a94-aa63-4d68be105460
+q
+java:S1066½"/Merge this if statement with the enclosing one.(š„¡ÀúÿÿÿÿJ$52290636-3957-4789-9c24-0795054ff4be
+r
+java:S16590"1Declare "restartToggleButton" on a separate line.(ÛÀÊôøÿÿÿÿJ$e8489ba0-d701-4053-ac82-5abb9eb565d8
+
+java:S16594"QDeclare "hospitalToggleButton" and all following declarations on a separate line.(ú–õ“J$a5bfcbc0-40dd-4a38-a5db-dc1013c9f7a4
+e
+java:S1659D")Declare "cleanButton" on a separate line.(Ù÷ÁßJ$564da2ff-8b0e-4c5b-804f-4a93c34d7c4c
+˜
+java:S1450R"\Remove the "menuControler" field and declare it as a local variable in the relevant methods.(¸‰Ï¬J$95ec98c3-c690-4709-8d8f-c5f3665be845
+“
+java:S3776k"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(ˆå¶šûÿÿÿÿJ$d2d87d18-da25-498f-ae6e-339f677977d0
+w	java:S125q"<This block of commented-out lines of code should be removed.(ŞÅ°íJ$74189705-ba68-4203-a9a8-abc7f43314d0
+}	java:S125¦"<This block of commented-out lines of code should be removed.(îµ¿¯üÿÿÿÿJ$bd7d7699-5a61-4c93-bc66-b2cfa06e27c3
+}	java:S125Ú"<This block of commented-out lines of code should be removed.(°È†ÕûÿÿÿÿJ$b22712d2-c30c-4794-b149-f8aa5e92d4df
+}	java:S125ã"<This block of commented-out lines of code should be removed.(ğŒŞşÿÿÿÿJ$141012d6-da8f-4f4e-8390-8ff8a76e43c5
+x	java:S125É"<This block of commented-out lines of code should be removed.(ÆÊ£ÃJ$139172ea-6c36-491d-bbe4-d12704a59e8b
+o
+java:S1135Ì"2Complete the task associated to this TODO comment.(ñ˜ŸŸJ$bc50b899-b8d7-4f1b-a9ad-cf3e5c2fb947
+n
+java:S1135‰"2Complete the task associated to this TODO comment.(ÒŠZJ$ba1950e4-3f8d-4840-999f-476c8e74cd0e
+n
+java:S1135"2Complete the task associated to this TODO comment.(ÒŠZJ$b306c1c8-9abb-48ad-a103-e33605886350
+n
+java:S1135‘"2Complete the task associated to this TODO comment.(ÒŠZJ$8827d081-e24f-4105-b587-5bec37fe1c25
+x
+java:S2696Ù"6Make the enclosing method "static" or remove this set.(øìäŠúÿÿÿÿJ$54adb2d2-f64d-497b-9830-436ac3c5fd22
+w
+java:S2209Ù"5Change this instance-reference to a static reference.(øìäŠúÿÿÿÿJ$23fdc30f-6b62-4ee8-8b74-36e4b3066faf
+x	java:S125›"<This block of commented-out lines of code should be removed.(‰èºÅJ$cefae601-8815-4995-8828-105d4bad4956
+m
+java:S1068R"1Remove this unused "menuControler" private field.(¸‰Ï¬J$bd88eb5a-254f-41dc-9ce3-74faab124ee8

@@ -1,0 +1,19 @@
+
+s
+java:S1450"XRemove the "stopWatch" field and declare it as a local variable in the relevant methods.(‚’´÷øÿÿÿÿ
+´
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(‹«ûµüÿÿÿÿ
+3
+java:S2119Q"Save and re-use this "Random".(¼ÝÅf
+V	java:S125d"<This block of commented-out lines of code should be removed.(ãï¹ôÿÿÿÿÿ
+V	java:S125{"<This block of commented-out lines of code should be removed.(ƒøßüÿÿÿÿ
+2
+java:S3626¥"Remove this redundant jump.(ûÁÝ…
+K
+java:S1172£"/Remove this unused method parameter "keyEvent".(’ÁÖùÿÿÿÿ
+Q	java:S125®"<This block of commented-out lines of code should be removed.(å¼§w
+R	java:S125¾"<This block of commented-out lines of code should be removed.(’†ÝÕ
+^
+java:S1128"HRemove this unused import 'util.exceptions.ClickOutsideRegionException'.(’»±À
+H
+java:S1068"-Remove this unused "stopWatch" private field.(‚’´÷øÿÿÿÿ

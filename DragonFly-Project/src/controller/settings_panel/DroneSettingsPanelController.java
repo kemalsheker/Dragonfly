@@ -286,7 +286,6 @@ public class DroneSettingsPanelController extends SettingsPanelController<Drone>
 
         wrapperComboBox.getSelectionModel().select(currentWrapperId);
 
-
     }
 
     @Override

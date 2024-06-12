@@ -1,0 +1,120 @@
+
+‹
+java:S1192„	"GDefine a constant instead of duplicating this literal "Drone[" 8 times.(Áà³8Õ¬´Âş1J$5fc1b6bf-56a1-4c22-b424-b443106d5a17
+l
+java:S5411Å"(Use a primitive boolean expression here.(Ùıâ’8Û¬´Âş1J$c70e33e6-2960-475c-a8a5-5eff3bfa9517
+l
+java:S5411Ñ"(Use a primitive boolean expression here.(Êï‡§8Û¬´Âş1J$4a6d7f3b-4b04-4269-bba3-d88e4ceba53b
+l
+java:S5411Ş"(Use a primitive boolean expression here.(Ø™îî8Û¬´Âş1J$94779fb1-c0a3-4765-8e91-7498d6fd26d4
+‹
+java:S2184Ê"BCast one of the operands of this addition operation to a "double".(±øÓ×ûÿÿÿÿ8á¬´Âş1J$811802df-345a-41ef-a0ff-10b0de723141
+É
+java:S1186l"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ĞÕ€ìøÿÿÿÿ8È°´Âş1J$ac8c8c06-9d47-4d01-8346-cea2dd4c7e75
+ƒ	java:S125M"<This block of commented-out lines of code should be removed.(Óª·šùÿÿÿÿ8İ°´Âş1J$73c5ecfa-0818-4e4d-b59d-910ef0eb774b
+~	java:S125b"<This block of commented-out lines of code should be removed.(Šù†î8ß°´Âş1J$0be97fe3-1242-4217-9809-93b032c9618d
+{
+java:S1172h"3Remove this unused method parameter "currentDrone".(ÖÙ”‰ÿÿÿÿÿ8á°´Âş1J$66beac14-d035-4a91-809d-0909d26bfd9b
+ƒ	java:S125p"<This block of commented-out lines of code should be removed.(³»Œ¶øÿÿÿÿ8ä°´Âş1J$a799d69b-ad10-4c34-9b43-1e8747fe7ead
+ƒ	java:S125t"<This block of commented-out lines of code should be removed.(”ÎÈıÿÿÿÿ8å°´Âş1J$c2970f82-22b7-48db-8143-05533d78fe54
+„	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8è°´Âş1J$7bcf96d9-df0c-421e-ba38-8792cbaea6d8
+„	java:S125”"<This block of commented-out lines of code should be removed.(”ÎÈıÿÿÿÿ8ê°´Âş1J$20ffc290-5a45-4049-8666-a3737f386e08
+„	java:S125­"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ì°´Âş1J$c18231cc-ecac-4949-9c1b-969e447022a0
+›
+java:S3776¹"RRefactor this method to reduce its Cognitive Complexity from 55 to the 15 allowed.(€ôíÏûÿÿÿÿ8ñ°´Âş1J$c41baaef-7788-43f3-9dd0-abd3dd609b09
+„	java:S125Á"<This block of commented-out lines of code should be removed.(Ö»‚üÿÿÿÿ8ô°´Âş1J$46c1d5a0-9df6-4764-af90-cab78bcdcc93
+
+java:S1764É"KCorrect one of the identical sub-expressions on both sides of operator "&&"(ÒàÜç8ö°´Âş1J$a90a8590-22e5-42da-aa5a-ba666d7b263d
+„	java:S125á"<This block of commented-out lines of code should be removed.(°Öûÿÿÿÿ8ø°´Âş1J$2dc88fb5-7f90-4e29-a289-6bb572fc9f1d
+
+java:S1854ã"8Remove this useless assignment to local variable "newJ".(¯¦ş·ÿÿÿÿÿ8ÿ°´Âş1J$11c239bf-ab95-41f1-b68f-13bf9b4dd77f
+r
+java:S1481ã")Remove this unused "newJ" local variable.(¯¦ş·ÿÿÿÿÿ8ƒ±´Âş1J$38df495f-995d-4586-8435-0105bb3ce245
+
+java:S1854÷"8Remove this useless assignment to local variable "newJ".(¯¦ş·ÿÿÿÿÿ8…±´Âş1J$0b3b4c0c-e392-4c14-9143-1882ecf18d9f
+r
+java:S1481÷")Remove this unused "newJ" local variable.(¯¦ş·ÿÿÿÿÿ8‡±´Âş1J$3ab07f4a-0fcc-45d7-acc2-02bcd31813a7
+|
+java:S1854Š"8Remove this useless assignment to local variable "newI".(æÏ¾í8‰±´Âş1J$620b46d7-1376-4df9-9e5e-41abf24f6b0c
+m
+java:S1481Š")Remove this unused "newI" local variable.(æÏ¾í8Š±´Âş1J$3a9d44ba-be54-4dbc-95cb-c731930bd981
+|
+java:S1854"8Remove this useless assignment to local variable "newI".(æÏ¾í8±´Âş1J$46c4e028-4ba9-42c7-8aa7-0b2d102e87e9
+m
+java:S1481")Remove this unused "newI" local variable.(æÏ¾í8±´Âş1J$321f9b45-0323-46e9-8237-5c3836702b5d
+
+java:S1124µ"EReorder the modifiers to comply with the Java Language Specification.(ÊöÈ€şÿÿÿÿ8”±´Âş1J$8584a3e9-0e54-48a9-b635-074468b8eeac
+	java:S125·"<This block of commented-out lines of code should be removed.(–…éˆ8•±´Âş1J$71ddd81d-a82c-480d-903f-a2a6cf75a56c
+‰
+java:S1124½"EReorder the modifiers to comply with the Java Language Specification.(ñ÷Üı8–±´Âş1J$011fb668-8a8e-4d17-b914-68793f31669f
+„	java:S125¿"<This block of commented-out lines of code should be removed.(Ç¼óĞúÿÿÿÿ8—±´Âş1J$8a951d3e-17fb-4ce3-b365-f28791295cff
+Œ
+java:S1659Æ"CDeclare "xFinal" and all following declarations on a separate line.(ª¨†ùøÿÿÿÿ8œ±´Âş1J$9a9a31c9-f8c3-4ca4-82a2-ff4389a6c62f
+›
+java:S3776Ù"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(œË´¯şÿÿÿÿ8±´Âş1J$b77efda7-926e-4643-a3ea-49fee8bfc505
+	java:S125Î"<This block of commented-out lines of code should be removed.(×÷üÜ8Ÿ±´Âş1J$358adf16-5664-4070-9573-e51f827d2bc1
+n	java:S106Ú"+Replace this use of System.out by a logger.(·½”‚8¡±´Âş1J$e056dcbb-85ac-42d9-ba51-4d064cab5ead
+„	java:S125Û"<This block of commented-out lines of code should be removed.(¤ƒ‹ğúÿÿÿÿ8¢±´Âş1J$d271e23c-90b2-4c6c-b80c-f51faa19472b
+a
+java:S2119à"Save and re-use this "Random".(¼İÅf8¦±´Âş1J$a31783e0-a755-4d07-8d97-0ec64742ee10
+l
+java:S2140ñ")Use "java.util.Random.nextInt()" instead.(óÙºl8ª±´Âş1J$5ab09180-2533-4b8a-b648-6c422b0422ed
+	java:S125ò"<This block of commented-out lines of code should be removed.(•¤–ˆ8ª±´Âş1J$39da242a-258d-48de-9528-46367a9d370d
+q	java:S108ø")Either remove or fill this block of code.(™áŞ±úÿÿÿÿ8­±´Âş1J$75510327-9218-426f-b902-bacb5878a51f
+l	java:S108ú")Either remove or fill this block of code.(®åÇì8­±´Âş1J$61e3e72f-7dbe-450d-ae49-07d4ce19c91f
+„	java:S125"<This block of commented-out lines of code should be removed.(ôæã©ıÿÿÿÿ8°±´Âş1J$d8c14125-0936-4eda-b012-23015aa35302
+	java:S125“"<This block of commented-out lines of code should be removed.(ÎÜÏé8°±´Âş1J$dd95c044-1361-4ea6-a147-1f009120cb82
+	java:S125"<This block of commented-out lines of code should be removed.(×šÏ…8²±´Âş1J$5b24bc22-9369-4c0d-b819-2825083cdd7e
+	java:S125¦"<This block of commented-out lines of code should be removed.(ñßÇø8µ±´Âş1J$d73e1df7-92eb-417a-837b-19e53688ea2d
+	java:S125°"<This block of commented-out lines of code should be removed.(¬ñ§ô8µ±´Âş1J$5d3f07cb-8f5b-488c-8589-43bd3af8dfe7
+	java:S125ı"<This block of commented-out lines of code should be removed.(´ˆ8µ±´Âş1J$ce23f919-a789-41e3-a1ac-f70ae371600d
+~	java:S125"<This block of commented-out lines of code should be removed.(ƒÇc8·±´Âş1J$3fc3846a-f603-46cd-ba3b-f20d34461f22
+	java:S125“"<This block of commented-out lines of code should be removed.(Õı‘…8·±´Âş1J$79ffe9cd-f614-40c4-8182-f45a9e56246d
+
+java:S1854î"ERemove this useless assignment to local variable "newDistanceSource".(›ÌĞˆşÿÿÿÿ8¸±´Âş1J$91eeec49-0fba-4ba0-8cc8-bf49c9f06dea
+	java:S125İ"<This block of commented-out lines of code should be removed.(×Œ°Í8½±´Âş1J$2357e996-d91d-427f-882f-89f3e99bba8d
+„	java:S125÷"<This block of commented-out lines of code should be removed.(“ŞÒÍùÿÿÿÿ8À±´Âş1J$dfca17f2-25af-4d0f-abf9-fe65e9fae70d
+„	java:S125ü"<This block of commented-out lines of code should be removed.(œ¥•İüÿÿÿÿ8Á±´Âş1J$b5a0fca6-77ed-467b-a078-c201b47bc136
+„	java:S125Á"<This block of commented-out lines of code should be removed.(—‡Õúÿÿÿÿ8Á±´Âş1J$a4c9579c-052e-44b5-b143-6107b5dd343a
+a
+java:S2119Ì"Save and re-use this "Random".(¼İÅf8Â±´Âş1J$d7c4f91f-9c11-49da-9384-4c45df5c27d0
+e	java:S131Ñ""Add a default case to this switch.(šüñÃ8Å±´Âş1J$b386fd2c-77c2-4e00-9885-19f1ff69e71a
+l
+java:S2140æ")Use "java.util.Random.nextInt()" instead.(óÙºl8Ç±´Âş1J$e259aa25-e551-4d4e-855f-9b85e17be74e
+j	java:S131è""Add a default case to this switch.(ƒ ¼ùÿÿÿÿ8Ç±´Âş1J$19cdb14b-515e-454b-9d0a-bd2d60a398fb
+e	java:S131ş""Add a default case to this switch.(šüñÃ8È±´Âş1J$720607aa-54dc-4595-bd4e-b2f33bb1bf83
+	java:S125Ü"<This block of commented-out lines of code should be removed.(„ˆª8Ğ±´Âş1J$074432c7-7126-4240-b3ad-b21bc607d1ca
+{
+java:S1135ò"2Complete the task associated to this TODO comment.(ä™Ÿÿÿÿÿÿ8Ô±´Âş1J$e27ef2f3-e916-4fee-bf9b-fa4e996f82ba
+	java:S125ô"<This block of commented-out lines of code should be removed.(ƒ¦‰Ú8Õ±´Âş1J$d21251f5-8434-45a7-8deb-9cc53eebfe86
+„	java:S125ø"<This block of commented-out lines of code should be removed.(ô…˜Œüÿÿÿÿ8Õ±´Âş1J$732424e6-6940-4558-95b1-de645f50ede0
+‰
+java:S1124ÿ"EReorder the modifiers to comply with the Java Language Specification.(á±ı8Ö±´Âş1J$4749e6dc-131f-4bc0-818d-67b8c6118893
+	java:S125	"<This block of commented-out lines of code should be removed.(ØøµÍ8×±´Âş1J$422955b0-0a97-45bb-9447-14681465d25b
+n	java:S106„	"+Replace this use of System.out by a logger.(Áà³8×±´Âş1J$e65234c8-5571-4626-811d-163246fd90e8
+n	java:S106‰	"+Replace this use of System.out by a logger.(œË¨‘8Ø±´Âş1J$fc178705-9440-4a65-b4a5-f56cef37a663
+	java:S125	"<This block of commented-out lines of code should be removed.(Øó¥¥8Ú±´Âş1J$9addcdb3-a8d6-44dc-a495-f83bd35e57c4
+n	java:S106•	"+Replace this use of System.out by a logger.(³„ö«8Ú±´Âş1J$940b049b-f99c-42aa-ac05-f2210188c591
+s	java:S106˜	"+Replace this use of System.out by a logger.(êóâıÿÿÿÿ8Û±´Âş1J$479a2246-69ff-49b6-838a-ebec8a3cd682
+€
+java:S1128"8Remove this unused import 'javafx.application.Platform'.(§“óùÿÿÿÿ8à±´Âş1J$038977d2-decc-4cf5-958e-8dcffe62094f
+{
+java:S1068"9Remove this unused "returnToHomeStopWatch" private field.(Ê¦ë/8á±´Âş1J$517694a6-dd29-43b4-9c95-bf405e69dfbd
+‰
+java:S1068"ARemove this unused "mustStopReturnToHomeStopWatch" private field.(¬ÓÒ¢úÿÿÿÿ8â±´Âş1J$c19b471d-3e8b-4c38-8100-7edf1166d636
+‚
+java:S1068"?Remove this unused "batteryDecrementertimerTask" private field.(±ìÚï8â±´Âş1J$b8179a9c-4cc6-4bcc-8b41-ec823cc72ffb
+
+java:S1068">Remove this unused "batteryDecrementerExecutor" private field.(ø×È¯8â±´Âş1J$7a8ad7f9-3a50-4105-9033-de90b553ae37
+‡
+java:S1068"?Remove this unused "goAutomaticDestinyTimerTask" private field.(¹ÓÍ øÿÿÿÿ8â±´Âş1J$19cf3729-ccd1-4094-a334-24b7afabca1e
+
+java:S1068">Remove this unused "goAutomaticDestinyExecutor" private field.(ğå¢¼8â±´Âş1J$b6d63f26-3587-4ed6-8ff6-3b75c872fb93
+
+java:S1068"9Remove this unused "returnToHomeTimerTask" private field.(¦é‰·ıÿÿÿÿ8â±´Âş1J$50ac672d-6934-45ae-b992-816863494d83
+{
+java:S1068"8Remove this unused "returnToHomeExecutor" private field.(ç½–„8ã±´Âş1J$b46f79f1-f707-4667-b98c-c5a3593407b3
+u
+java:S1068"2Remove this unused "currentCommand" private field.(ª×ÓÒ8ã±´Âş1J$adbccd63-ad3c-4b78-b99d-289b37c1801f
+
+java:S6541¹"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 76 to 64, Complexity from 33 to 14, Nesting Level from 6 to 2, Number of Variables from 12 to 6.(€ôíÏûÿÿÿÿ8å±´Âş1J$316bcc31-3519-48a0-b290-2dab9de81811

@@ -1,0 +1,12 @@
+
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¯€³8¥Úÿâ€2J$ced548d0-9a09-4b1a-8563-f7e676311595
+m	java:S106$"+Replace this use of System.out by a logger.(ËòŒ”8°Úÿâ€2J$f897c715-8753-47a0-861c-48064736374c
+m	java:S106+"+Replace this use of System.out by a logger.(ôù¾«8²Úÿâ€2J$babc5b53-7d16-473d-820e-e07cbfc7c40c
+r	java:S1067"+Replace this use of System.out by a logger.(¢ŸŸªþÿÿÿÿ8´Úÿâ€2J$5278e04e-1195-421a-b01c-c0811da9840b
+m	java:S106<"+Replace this use of System.err by a logger.(Øú¿®8µÚÿâ€2J$740b336c-68e5-4e8e-ac65-07dc007c81d6
+ƒ
+java:S1128"@Remove this unused import 'controller.DroneAutomaticController'.(‹òðý8Ê‚ææ€2J$d2ecebd8-10b8-4fc3-b858-a9f8bb48ac05
+}
+java:S1128"5Remove this unused import 'model.entity.drone.Drone'.(Æ­³ôüÿÿÿÿ8Ê‚ææ€2J$b4bf7bd9-6c13-4869-a497-3749ef3c1a4e
+z
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8Ê‚ææ€2J$23982965-d349-4037-9050-4958cf7b199c

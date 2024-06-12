@@ -1,6 +1,8 @@
 package controller;
 
 import javafx.scene.input.KeyEvent;
+import jettyDeneme.DroneData;
+import jettyDeneme.DroneWebSocket;
 import model.Cell;
 import model.entity.Hospital;
 import model.entity.drone.Drone;
@@ -11,15 +13,22 @@ import view.drone.DroneView;
 import java.util.HashMap;
 import java.util.Map;
 
+
+
 public abstract class DroneController {
     protected static DroneController instance;
 
     protected static Map<String, DroneView> droneViewMap = new HashMap<>();
     protected static Map<String, Drone>  droneMap = new HashMap<>();
 
+    protected static Map<String, DroneData> dataMap = new HashMap<>();
+
     public static DroneController getInstance(){
         return instance;
     }
+
+    protected boolean overrideGoDestinyAutomaticFlag = false;
+
 
     public static void init(String nameClass){
 
@@ -39,6 +48,7 @@ public abstract class DroneController {
     public static void consumeCleanEnvironment() {
         droneMap.clear();
         droneViewMap.clear();
+        dataMap.clear();
         Drone.restartCount();
     }
 
@@ -67,6 +77,7 @@ public abstract class DroneController {
 
     public void deleteDrone(Drone drone){
         droneMap.remove(drone.getUniqueID());
+        dataMap.remove(drone.getUniqueID());
         DroneView droneView = droneViewMap.remove(drone.getUniqueID());
         droneView.getCurrentCellView().getChildren().remove(droneView);
     }
@@ -85,6 +96,14 @@ public abstract class DroneController {
 
     public void setDroneMap(Map<String, Drone> droneMap) {
         this.droneMap = droneMap;
+    }
+
+    public Map<String, DroneData> getDataMap() {
+        return dataMap;
+    }
+
+    public void setDataMap(Map<String, DroneData> dataMap) {
+        this.dataMap = dataMap;
     }
 
     public abstract DroneView getDroneViewFrom(String identifierDrone);
@@ -109,5 +128,14 @@ public abstract class DroneController {
 
     public void consumeSaveAttributesDrone(DroneView droneView) {
 
+    }
+
+    public void overrideGoDestinyAutomatic(Boolean override) {
+        if(Boolean.TRUE.equals(override)){
+            this.overrideGoDestinyAutomaticFlag = true;
+        }
+        else{
+            this.overrideGoDestinyAutomaticFlag = false;
+        }
     }
 }

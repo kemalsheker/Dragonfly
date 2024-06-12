@@ -231,7 +231,7 @@ public class EnvironmentController {
 
     public Drone createDrone(CellView selectedCellView) throws ClickOutsideRegionException {
         String uniqueID = UniqueIDGenenator.generate();
-
+        //System.out.println("This is the unique id of the drone: " + uniqueID);
         return createDrone(uniqueID, selectedCellView);
     }
 

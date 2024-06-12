@@ -73,7 +73,6 @@ public aspect Wrapper1 {
             DroneBusinessObject.goTo(drone, goDirection);
         }
 
-
     }
 
     private void keepFlying(JoinPoint thisJoinPoint) {

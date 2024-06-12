@@ -1,0 +1,24 @@
+
+›
+java:S1192¤"RDefine a constant instead of duplicating this literal "Is change happens" 9 times.(λÿÿÿÿÿ8Ερύ1J$033e92cc-3b44-4973-8f90-d22f374c7b59
+
+java:S1192¤"FDefine a constant instead of duplicating this literal "Old: " 9 times.(λÿÿÿÿÿ8Ερύ1J$62444396-e4b0-4d4b-981b-7341767902f8
+k
+java:S5411!"(Use a primitive boolean expression here.(Η¥Ξ8΄«άπύ1J$61c7d5c0-b95f-421f-9610-f5f79b9f7e33
+x
+java:S1191"5Use classes from the Java API instead of Sun classes.(²Ώ·τ8µ«άπύ1J$f4ee6312-8463-4993-966b-7705ffc27b81
+	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Μ―€³8¶«άπύ1J$a72efb74-8479-437f-ba1b-fcd0d70789fd
+s	java:S106¤"+Replace this use of System.out by a logger.(λÿÿÿÿÿ8Ερύ1J$e7531dc6-ad5d-46bf-943b-fd07451d5642
+s	java:S106©"+Replace this use of System.out by a logger.(λÿÿÿÿÿ8›Ερύ1J$ee883aea-8533-46de-96bd-02d0ae8399c4
+s	java:S106°"+Replace this use of System.out by a logger.(λÿÿÿÿÿ8›Ερύ1J$f110bab2-2c7e-4b29-82dc-6f410c5b5da3
+s	java:S106΄"+Replace this use of System.out by a logger.(λÿÿÿÿÿ8›Ερύ1J$e0cc257f-dfcd-4643-8627-7af4d317b9a1
+s	java:S106Έ"+Replace this use of System.out by a logger.(λÿÿÿÿÿ8›Ερύ1J$ed7135f9-6bc7-4003-ad45-720cacdc89ed
+s	java:S106Ό"+Replace this use of System.out by a logger.(λÿÿÿÿÿ8›Ερύ1J$9091ef71-9430-42c1-a140-a014a0e8e25b
+s	java:S106ΐ"+Replace this use of System.out by a logger.(λÿÿÿÿÿ8›Ερύ1J$f1ea99ea-e0c3-42be-98e7-a435fc1ff358
+s	java:S106Δ"+Replace this use of System.out by a logger.(λÿÿÿÿÿ8Ερύ1J$277b918b-fdc4-4944-8dd6-2bfb69a25efa
+s	java:S106Λ"+Replace this use of System.out by a logger.(λÿÿÿÿÿ8Ερύ1J$481b9b01-44ca-44b3-bb7a-fa49eaf85cff
+„	java:S125Υ"<This block of commented-out lines of code should be removed.(σ‘Νωÿÿÿÿ8ªªρύ1J$fc6310c8-713e-4c06-8e0d-459d78743af1
+t
+java:S1128"1Remove this unused import 'com.google.gson.Gson'.(–§8¥ρύ1J$571822e6-0f18-4da2-9cba-705403e0404f
+€
+java:S1128"=Remove this unused import 'sun.plugin2.util.PojoUtil.toJson'.(²Ώ·τ8¥ρύ1J$79485f5e-5aa2-4fce-8b37-39922787a34f

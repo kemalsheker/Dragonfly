@@ -1,0 +1,9 @@
+
+—
+java:S1104"VMake COUNT_TREE a static final constant or non-public and provide accessors if needed.(ΪχόÿÿÿÿJ$6e4cb092-1ffb-4216-aa92-ea853a38194c
+q
+java:S1444"0Make this "public static COUNT_TREE" field final(ΪχόÿÿÿÿJ$ed1fc21c-bb7c-4324-893d-778973f1903b
+–
+java:S3008"URename this field "COUNT_TREE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΪχόÿÿÿÿJ$778ac142-a1f3-4825-8118-3c2136afe1b4
+h
+java:S1659	",Declare "columnPosition" on a separate line.(™…·¨J$c1a6adbb-dfdc-439c-8e45-442505214bee

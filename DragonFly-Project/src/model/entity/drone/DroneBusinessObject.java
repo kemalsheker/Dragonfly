@@ -364,6 +364,7 @@ public class DroneBusinessObject {
 
 
         selectedDrone.setCurrentPositionI(newI);
+        updateDistances(selectedDrone);
     }
 
     public static void flyingUp(Drone selectedDrone) {
@@ -383,6 +384,7 @@ public class DroneBusinessObject {
         }
 
         selectedDrone.setCurrentPositionI(newI);
+        updateDistances(selectedDrone);
     }
 
     public static void flyingRight(Drone selectedDrone) {
@@ -402,7 +404,7 @@ public class DroneBusinessObject {
         }
 
         selectedDrone.setCurrentPositionJ(newJ);
-
+        updateDistances(selectedDrone);
     }
 
     public static void flyingLeft(Drone selectedDrone) {
@@ -423,6 +425,7 @@ public class DroneBusinessObject {
         }
 
         selectedDrone.setCurrentPositionJ(newJ);
+        updateDistances(selectedDrone);
     }
 
 

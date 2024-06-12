@@ -1,0 +1,32 @@
+
+Ÿ
+java:S1104B"WMake COUNT_DRONE a static final constant or non-public and provide accessors if needed.(ú³¬¾üÿÿÿÿ8Ääëı1J$7d67c3d8-fad9-46a9-a78c-7dfc3bdcc2e9
+y
+java:S1444B"1Make this "public static COUNT_DRONE" field final(ú³¬¾üÿÿÿÿ8Çäëı1J$e9e1355a-2e81-46dc-a354-0c1aa91b7ed4
+€
+java:S4973â"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8Ëäëı1J$cadb3ff6-4764-4482-bc04-972b68bb5f6b
+€
+java:S4973ó"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8Ìäëı1J$c89e1878-6ba9-4464-a13d-99bab8c1312f
+€
+java:S4973„"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8Ìäëı1J$7f520ac4-2f3b-48ad-a1c1-63a34648fbe2
+€
+java:S4973Ÿ"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8Ìäëı1J$ed89e56c-1ac8-4218-837e-2d716539ab90
+€
+java:S4973ª"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8Íäëı1J$6cf90411-4ae8-4d93-bf48-eca78aa77fd8
+€
+java:S4973½"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8Íäëı1J$452258e3-fe53-47f5-b65b-aea0d0ec35e7
+€
+java:S4973È"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8Îäëı1J$9b88a00f-14e5-4a8b-8e4d-fd90d5e876e0
+€
+java:S4973ê"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8Ïäëı1J$e8c220d4-6554-4396-af9c-0fe8cfdf1981
+
+java:S3008B"VRename this field "COUNT_DRONE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú³¬¾üÿÿÿÿ8¹äëı1J$d93432af-ae42-4765-96ed-ca824d729b38
+p
+java:S1659".Declare "initialPositionJ" on a separate line.(ãÚİ-8Àäëı1J$351e5afc-d65c-4263-a441-8ea834a9c017
+v
+java:S1659 ".Declare "currentPositionJ" on a separate line.(º–ï×şÿÿÿÿ8Áäëı1J$3568d667-e300-4ca5-87a4-56e0bdb87ca3
+~	java:S125h"<This block of commented-out lines of code should be removed.(É„ÇÏ8Öäëı1J$13d45f25-e91b-4340-a034-9cdc0ef1c31b
+„	java:S125¾"<This block of commented-out lines of code should be removed.(¹€ö¶ÿÿÿÿÿ8 äëı1J$34301db7-68a6-4fa1-a610-907b639da5ad
+n	java:S106×"+Replace this use of System.out by a logger.(ö¬8— äëı1J$b30a1ffb-eb20-49c3-853b-e0801e557b58
+r
+java:S1068'"*Remove this unused "landed" private field.(“Ø‡”ıÿÿÿÿ8œ äëı1J$1c738f12-4969-4df9-94db-4a549d9ce306

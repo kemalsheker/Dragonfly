@@ -1,0 +1,26 @@
+
+k
+java:S1066Y"/Merge this if statement with the enclosing one.(Çç £J$eebee551-ee8d-41a1-93f1-274898554b49
+j
+java:S5411©"(Use a primitive boolean expression here.(¸æ£ãşÿÿÿÿJ$03badfdb-acd5-4283-a838-d386d14b1635
+e
+java:S5411À"(Use a primitive boolean expression here.(¸ûİJ$387619c7-07cc-4153-ac85-a83356f56837
+e
+java:S5411”"(Use a primitive boolean expression here.(†¡ºJ$a5adbd67-cd25-45bb-b223-cfb86e5d7f33
+Ã
+java:S1186â"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¡ãÔëøÿÿÿÿJ$0e8cf71e-5aba-4e46-8b29-ce587c8e524f
+ 
+java:S1450"_Remove the "stopWatchBattery" field and declare it as a local variable in the relevant methods.(‚Ï˜ÜûÿÿÿÿJ$8ec22cd7-f239-4c0c-ad76-00eed7bf460a
+|	java:S125'"<This block of commented-out lines of code should be removed.(ÀóèÀûÿÿÿÿJ$a8b04b27-c537-42c7-a459-d16f6efa415f
+‚
+java:S1126-"AReplace this if-then-else statement by a single return statement.(ŠØ²éùÿÿÿÿJ$35c77d05-cb9f-4005-9697-914b656d4134
+|	java:S125^"<This block of commented-out lines of code should be removed.(°øÏÇÿÿÿÿÿJ$f826c2d6-217c-400d-85bc-56582503ec1d
+w	java:S125˜"<This block of commented-out lines of code should be removed.(öøúJ$78122622-ffe8-40dc-9e79-17611e3935a2
+x	java:S125·"<This block of commented-out lines of code should be removed.(„‘ÂJ$a1e459ae-d665-4ce8-94ce-fa9b58891dfb
+}	java:S125Û"<This block of commented-out lines of code should be removed.(æÍÎûÿÿÿÿJ$cfa10285-63df-4757-96fb-0126b4bf4e5a
+z
+java:S1128"2Remove this unused import 'model.entity.Hospital'.(“ öªüÿÿÿÿ8á´ ìş1J$65f0a497-d4ea-4b0b-915f-20c26ed771e3
+u
+java:S1068"9Remove this unused "environmentController" private field.(­ˆïŒJ$a2419fb2-5a4a-4a64-9937-fcca8887973f
+u
+java:S1068"4Remove this unused "stopWatchBattery" private field.(‚Ï˜ÜûÿÿÿÿJ$8c3217ba-4605-4362-82c2-8ec40527b321
