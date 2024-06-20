@@ -23,6 +23,10 @@ public class DroneData implements Drone.Listener{
 
     private String id;
 
+    private Boolean landing;
+
+    private Boolean safeLand;
+
 
     public DroneData(Drone drone) {
 
@@ -47,6 +51,8 @@ public class DroneData implements Drone.Listener{
         this.currentBattery = drone.getCurrentBattery();
         this.consumptionPerSecond = drone.getBatteryPerSecond();
         this.consumptionPerBlock = drone.getBatteryPerBlock();
+        this.landing = drone.getLanding();
+        this.safeLand = drone.isSafeLand();
     }
 
     public void setUniqueID(String uniqueID) {
@@ -141,6 +147,14 @@ public class DroneData implements Drone.Listener{
         return consumptionPerSecond;
     }
 
+    public Boolean getLanded() { return  landing;}
+
+    public void setLanded(Boolean landed) { this.landing = landed;}
+
+    public Boolean safeLand() {return safeLand;}
+
+    public void setSafeLand(Boolean safeLand) {this.safeLand = safeLand;}
+
     public void setConsumptionPerSecond(Double consumptionPerSecond) {
         this.consumptionPerSecond = consumptionPerSecond;
     }
@@ -171,8 +185,8 @@ public class DroneData implements Drone.Listener{
             case "setCurrentPositionI":
             case "setCurrentPositionJ":
                 setCurrentPosition(drone.getCurrentPositionI() + "," + drone.getCurrentPositionJ());
-                DroneWebSocket.broadcastDroneData(this);
-                DroneBusinessObject.updateItIsOver(drone);
+                //DroneWebSocket.broadcastDroneData(this);
+                //DroneBusinessObject.updateItIsOver(drone);
                 System.out.println("Is change happens" + "Old: " + oldValue + "New:" + newValue);
                 break;
             case "setDistanceSource":
@@ -200,19 +214,29 @@ public class DroneData implements Drone.Listener{
                 break;
             case "isOnWater":
                 setOnWater((Boolean) newValue);
-                System.out.println("Is change happens" + "Old: " + oldValue + "New:" + newValue);
+                //DroneWebSocket.broadcastDroneData(this);
+                //DroneBusinessObject.updateItIsOver(drone);
+                System.out.println("Is onWater change happens" + "Old: " + oldValue + "New:" + newValue);
                 break;
             case "setStrongWind":
                 setStrongWind(drone.isStrongWind());
+                break;
+            case "setLanding":
+                setLanded((Boolean) newValue);
+                System.out.println("Is drone landed " + "Old: " + oldValue + " New: " + newValue);
+                break;
+            case "setIsSafeland":
+                setSafeLand((Boolean) newValue);
+                System.out.println("Status of safeLand " + "Old: " + oldValue + "New: " + newValue);
                 break;
             default:
                 // Handle other changes if needed
                 break;
         }
 
-        //DroneWebSocket.broadcastDroneData(this);
+        DroneWebSocket.broadcastDroneData(this);
+        DroneBusinessObject.updateItIsOver(drone);
     }
-
 
 
 

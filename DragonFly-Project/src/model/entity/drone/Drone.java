@@ -36,7 +36,6 @@ public class Drone extends Entity {
     private Boolean isTookOff = false;
 
     private Boolean landing = false;
-    private Boolean landed = false;
 
     private Boolean isBadConnection = false;
 
@@ -612,9 +611,11 @@ public class Drone extends Entity {
         return false;
     }
 
-    private void checkAndNotifyOnWaterState() {
+    public void checkAndNotifyOnWaterState() {
         boolean onWater = isOnWater();
+        System.out.println("Old value: "+ !onWater + " New Value " + onWater);
         notifiesListeners("isOnWater", !onWater, onWater);
+        //notifiesListeners(Thread.currentThread().getStackTrace()[1].getMethodName(),!onWater, onWater);
     }
 
     public Boolean isLost() {

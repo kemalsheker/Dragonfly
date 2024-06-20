@@ -58,6 +58,7 @@ public class DroneSettingsPanelController extends SettingsPanelController<Drone>
     @FXML
     private ComboBox wrapperComboBox;
 
+
     private static DroneSettingsPanelController instance = null;
     private AnchorPane defaultPanelSettingsAnchorPane;
     private boolean clickedDestinySettings;

@@ -27,7 +27,11 @@ public abstract class DroneController {
         return instance;
     }
 
-    protected boolean overrideGoDestinyAutomaticFlag = false;
+    public boolean overrideGoDestinyAutomaticFlag = false;
+
+    public boolean executeLanding = false;
+
+    public boolean safeLanding = false;
 
 
     public static void init(String nameClass){
@@ -131,11 +135,32 @@ public abstract class DroneController {
     }
 
     public void overrideGoDestinyAutomatic(Boolean override) {
-        if(Boolean.TRUE.equals(override)){
+        if (Boolean.TRUE.equals(override)) {
             this.overrideGoDestinyAutomaticFlag = true;
-        }
-        else{
+        } else {
             this.overrideGoDestinyAutomaticFlag = false;
         }
     }
+
+
+    public void setExecuteLanding(Boolean l){
+        if(Boolean.TRUE.equals(l)){
+            this.executeLanding = true;
+        }
+        else{
+            this.executeLanding = false;
+        }
+    }
+
+
+    public void setSafeLanding(Boolean s){
+        if(Boolean.TRUE.equals(s)){
+            this.safeLanding = true;
+        }
+        else{
+            this.safeLanding = false;
+        }
+    }
+
+
 }

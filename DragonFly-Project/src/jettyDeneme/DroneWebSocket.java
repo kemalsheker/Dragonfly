@@ -51,6 +51,18 @@ public class DroneWebSocket { // CONTINUE FROM HERE , FIGURE OUT IMPLEMENTING WE
                 case "GoDestinyAutomatic":
                     DroneController.getInstance().overrideGoDestinyAutomatic(false);
                     break;
+                case "ExecuteLanding":
+                    DroneController.getInstance().setExecuteLanding(true);
+                    break;
+                case "NoOverrideLanding":
+                    DroneController.getInstance().setExecuteLanding(false);
+                    break;
+                case "SafeLandingFalse":
+                    DroneController.getInstance().setSafeLanding(false);
+                    break;
+                case "SafeLandingTrue":
+                    DroneController.getInstance().setSafeLanding(true);
+                    break;
                 default:
                     System.out.println("No context change/or adaptation");
             }

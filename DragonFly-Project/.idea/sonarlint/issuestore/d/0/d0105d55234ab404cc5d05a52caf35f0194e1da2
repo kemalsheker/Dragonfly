@@ -1,54 +1,54 @@
 
 q
-java:S5411ž"(Use a primitive boolean expression here.(¸æ£ãþÿÿÿÿ8ŠˆËã€2J$ec5749d4-2fa5-4a99-baaa-019f4149898a
+java:S5411ž"(Use a primitive boolean expression here.(¸æ£ãþÿÿÿÿ8žù«‚2J$781af54e-a935-474b-93b0-2a3ae3f333fd
 l
-java:S5411´"(Use a primitive boolean expression here.(¸ûÝ8ŠˆËã€2J$32d93859-da5d-4992-95e1-5d4db7474661
+java:S5411´"(Use a primitive boolean expression here.(¸ûÝ8žù«‚2J$4a7a181a-d5bb-4bb2-8afc-8edef2125434
 Ê
-java:S1186©"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’ÁÖùÿÿÿÿ8¬ˆËã€2J$37f5affd-edc6-487a-85b6-28b3ac6f029b
+java:S1186©"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’ÁÖùÿÿÿÿ8ºù«‚2J$d2f5f39e-d135-42cf-be31-3b58e818afbd
 Å
-java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ë‚áú8¬ˆËã€2J$7d83e5e2-f949-4285-bfcc-72609be95de9
+java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ë‚áú8ºù«‚2J$2444dfb4-03d7-4b1b-afff-f17a9613d73f
 ­
-java:S1450"jRemove the "automaticExecutionStopWatch" field and declare it as a local variable in the relevant methods.(ù‹Í€8­ˆËã€2J$505a7118-c9a9-4304-910b-43794620b280
+java:S1450"jRemove the "automaticExecutionStopWatch" field and declare it as a local variable in the relevant methods.(ù‹Í€8¼ù«‚2J$f5e2c0f5-00d5-468d-ae05-d8fbbe2b1210
 §
-java:S1450"_Remove the "stopWatchBattery" field and declare it as a local variable in the relevant methods.(‚Ï˜Üûÿÿÿÿ8®ˆËã€2J$49230254-c508-4df1-b1ed-b9df8f680af2
-~	java:S125>"<This block of commented-out lines of code should be removed.(±²Ø•8²ˆËã€2J$2f22f8d0-0137-462a-9032-038eb34ef295
-ƒ	java:S125D"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ8²ˆËã€2J$a7205d52-ca76-48bf-a18e-a186afe93257
-ƒ	java:S125J"<This block of commented-out lines of code should be removed.(Þ¸á¿ýÿÿÿÿ8³ˆËã€2J$a452e81b-3381-44e8-97d5-91d6f7dbcd09
-ƒ	java:S125Z"<This block of commented-out lines of code should be removed.(öÜ¥Þÿÿÿÿÿ8³ˆËã€2J$79c00bf4-fe21-4bed-92df-dfb029938e30
-~	java:S125^"<This block of commented-out lines of code should be removed.(„‘žÂ8³ˆËã€2J$da712257-1ffa-4cd6-b415-034fb309a81b
-~	java:S125‰"<This block of commented-out lines of code should be removed.(öøú8´ˆËã€2J$42cac88c-232d-4193-9ac4-3c0895829367
-s	java:S106Ú"+Replace this use of System.out by a logger.(ø½×ùÿÿÿÿ8¹ˆËã€2J$bd9f07cf-0c08-4fbf-8509-591bff16c185
-s	java:S106á"+Replace this use of System.out by a logger.(¹Š˜ƒýÿÿÿÿ8¹ˆËã€2J$cbbbccd7-f207-4c28-ac07-ea6b89b624f1
-	java:S125ê"<This block of commented-out lines of code should be removed.(„‘žÂ8ºˆËã€2J$b05a9b08-60cc-46b1-9ebb-caa43a2a85d5
+java:S1450"_Remove the "stopWatchBattery" field and declare it as a local variable in the relevant methods.(‚Ï˜Üûÿÿÿÿ8¼ù«‚2J$e67a1224-527c-4633-879f-06e7344f5d2a
+~	java:S125>"<This block of commented-out lines of code should be removed.(±²Ø•8Áù«‚2J$441a3a0a-6e85-43f1-9b4a-2f9e59545660
+ƒ	java:S125D"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ8Áù«‚2J$6d65aa17-1372-4496-b8a2-57c23e1c2825
+ƒ	java:S125J"<This block of commented-out lines of code should be removed.(Þ¸á¿ýÿÿÿÿ8Áù«‚2J$30ef1291-dd68-4e72-a48e-1616ddf7b34c
+ƒ	java:S125Z"<This block of commented-out lines of code should be removed.(öÜ¥Þÿÿÿÿÿ8Âù«‚2J$d561112e-d9df-4363-9fa0-db726ef8de2c
+~	java:S125^"<This block of commented-out lines of code should be removed.(„‘žÂ8Âù«‚2J$cad83edc-d685-4464-836f-03eb7d921473
+~	java:S125‰"<This block of commented-out lines of code should be removed.(öøú8Ãù«‚2J$b3460bbb-d9ec-4b8d-8bf9-2503e318cf59
+s	java:S106Ú"+Replace this use of System.out by a logger.(ø½×ùÿÿÿÿ8Çù«‚2J$73ae9ca1-1e91-437d-bdb2-75ea1c1ecc17
+s	java:S106á"+Replace this use of System.out by a logger.(¹Š˜ƒýÿÿÿÿ8Çù«‚2J$69b6f68c-74fb-4461-bdc4-6853686507cb
+	java:S125ê"<This block of commented-out lines of code should be removed.(„‘žÂ8Èù«‚2J$a21e7632-e006-4d79-bd70-372df56c4841
 –
-java:S3776²"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Žìž¶8¾ˆËã€2J$7a0dfdfa-857e-4236-92db-17b4bf78e4ad
+java:S3776²"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Žìž¶8Ìù«‚2J$bf58128b-65bf-477b-9cc6-a47ce8a0bc5d
 |
-java:S1854Â"8Remove this useless assignment to local variable "oldJ".(”ö‡ü8ÀˆËã€2J$46a88eb1-014c-45c5-8885-ac3e945d0dd2
+java:S1854Æ"8Remove this useless assignment to local variable "oldJ".(”ö‡ü8Ìù«‚2J$c59b73c6-82ae-4a03-9eb7-0d4a5c44cd11
 {
-java:S1854Á"8Remove this useless assignment to local variable "oldI".(ÝÌ¾}8ÀˆËã€2J$e867a573-b9e0-46ab-988c-aaa83699916a
+java:S1854Å"8Remove this useless assignment to local variable "oldI".(ÝÌ¾}8Íù«‚2J$24cc15ba-2c55-4e95-b921-27998d73eb3d
 
-java:S1854ì"FRemove this useless assignment to local variable "newDistanceDestiny".(ÎÅã“üÿÿÿÿ8ÀˆËã€2J$0baac72f-2816-42f7-b6d0-0f0893158e1b
-n	java:S106µ"+Replace this use of System.out by a logger.(ªííÿ8ÀˆËã€2J$b630c87a-0e33-4bf9-97ba-79281df57007
+java:S1854ð"FRemove this useless assignment to local variable "newDistanceDestiny".(ÎÅã“üÿÿÿÿ8Íù«‚2J$bdd41d9e-3ae2-4459-ab9b-0ca9aa55ff49
+n	java:S106µ"+Replace this use of System.out by a logger.(ªííÿ8Íù«‚2J$0acb7c1a-4e1b-478c-b06c-b2aa49f12df8
 l
-java:S1481Á")Remove this unused "oldI" local variable.(ÝÌ¾}8ÂˆËã€2J$36aa4e3a-7d88-47a5-ab5d-28afcdcfc639
+java:S1481Å")Remove this unused "oldI" local variable.(ÝÌ¾}8Îù«‚2J$3525d551-d8c4-4046-8e8a-851671122a29
 m
-java:S1481Â")Remove this unused "oldJ" local variable.(”ö‡ü8ÂˆËã€2J$3f08c894-5178-4999-937c-171b65bd4367
-	java:S125ô"<This block of commented-out lines of code should be removed.(ŸˆÆö8ÃˆËã€2J$990e0845-840a-4d32-8cda-2c34ef9b4641
-„	java:S125‘"<This block of commented-out lines of code should be removed.(æÍÎûÿÿÿÿ8ÅˆËã€2J$64430638-165d-45be-a88c-98649f30707d
-	java:S125—"<This block of commented-out lines of code should be removed.(À¶ôè8ÅˆËã€2J$ffa01528-cd40-4722-99e6-f702dd98fa96
+java:S1481Æ")Remove this unused "oldJ" local variable.(”ö‡ü8Ïù«‚2J$31951806-e541-493c-82d5-cc44d667b6ca
+	java:S125ø"<This block of commented-out lines of code should be removed.(ŸˆÆö8Ðù«‚2J$68727410-1e4e-483f-85f6-79879690e20d
+„	java:S125—"<This block of commented-out lines of code should be removed.(æÍÎûÿÿÿÿ8Ñù«‚2J$08499ff4-0abe-489d-9b11-30dddb4f4336
+	java:S125"<This block of commented-out lines of code should be removed.(À¶ôè8Ñù«‚2J$eecb1590-7ffb-428b-8f40-5a2af3caee95
 z
-java:S1128"2Remove this unused import 'model.entity.Hospital'.(“ öªüÿÿÿÿ8ÆˆËã€2J$6047c448-fd73-4129-ac82-1f99f8d90f58
+java:S1128"2Remove this unused import 'model.entity.Hospital'.(“ öªüÿÿÿÿ8Òù«‚2J$ef10e421-4533-4015-b8ab-4388237bf9a9
 z
-java:S1128"7Remove this unused import 'view.hospital.HospitalView'.(”éþä8ÆˆËã€2J$d084cc2c-aa17-4f64-bfca-298b36080a4a
+java:S1128"7Remove this unused import 'view.hospital.HospitalView'.(”éþä8Òù«‚2J$ec6f214b-6f57-42bb-8e9b-1b2e7f04b75b
 s
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÆˆËã€2J$60cebc4d-d76c-4684-b472-d70f71b3081f
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Òù«‚2J$b35f74ca-dba7-4ee5-92a4-c3a17af9d83e
 s
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÆˆËã€2J$f9b0d0df-3b88-4225-a22f-391ec4a7bcf5
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Òù«‚2J$52b98b50-6c32-4016-978f-6781f9d05e48
 r
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8ÆˆËã€2J$f10125fb-ba59-492e-b94e-26b67a2e9dd5
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8Òù«‚2J$270150ef-7052-4c59-981a-23e66627dc85
 |
-java:S1068"9Remove this unused "environmentController" private field.(­ˆïŒ8ÇˆËã€2J$cd1cf932-701c-4700-9c44-597c89b86692
+java:S1068"9Remove this unused "environmentController" private field.(­ˆïŒ8Óù«‚2J$d5046451-f001-475a-8d11-254fa0254619
 |
-java:S1068"4Remove this unused "stopWatchBattery" private field.(‚Ï˜Üûÿÿÿÿ8ÈˆËã€2J$0fcba659-7e10-488b-b43d-11bca05248b1
+java:S1068"4Remove this unused "stopWatchBattery" private field.(‚Ï˜Üûÿÿÿÿ8Óù«‚2J$4fa1ff80-b484-4af9-a7bb-5e5a93dcf368
 ‚
-java:S1068"?Remove this unused "automaticExecutionStopWatch" private field.(ù‹Í€8ÈˆËã€2J$98b4da2c-9286-4ba8-9c47-747181dcc5d7
+java:S1068"?Remove this unused "automaticExecutionStopWatch" private field.(ù‹Í€8Óù«‚2J$9941cab9-cd06-43b7-ba64-7ead9f29ce92

@@ -58,6 +58,7 @@ public class DroneBusinessObject {
 
         selectedDrone.setIsTookOff(false);
 
+
         return true;
 
     }
@@ -194,11 +195,11 @@ public class DroneBusinessObject {
 
         KeyCode flyDirectionCommand = selectedDrone.getFlyDirectionCommand();
 
-        if (selectedDrone.getCurrentBattery() > 10 && selectedDrone.getDistanceDestiny() > 0 && flyDirectionCommand != null
+        if (selectedDrone.getCurrentBattery() > 0 && selectedDrone.getDistanceDestiny() > 0 && flyDirectionCommand != null
                 && !selectedDrone.isReturningToHome()
                 && !selectedDrone.isSafeLand()
                 && !selectedDrone.isBadConnection()
-                && !selectedDrone.isSafeLand()) {
+                && !selectedDrone.isSafeLand() && !DroneController.getInstance().executeLanding && !DroneController.getInstance().safeLanding) {
 
             flying(selectedDrone, flyDirectionCommand);
 
@@ -260,8 +261,11 @@ public class DroneBusinessObject {
             applyEconomyMode(selectedDrone);
         }
 
-        if (selectedDrone.getCurrentBattery() <= 10 && selectedDrone.getDistanceDestiny() > 0
-                && !selectedDrone.isSafeLand()) {
+        /*if (selectedDrone.getCurrentBattery() <= 15 && selectedDrone.getDistanceDestiny() > 0
+                && !selectedDrone.isSafeLand() && DroneController.getInstance().executeLanding )*/
+
+        if(DroneController.getInstance().executeLanding && selectedDrone.getDistanceDestiny() > 0
+        && DroneController.getInstance().safeLanding) {
 
             //SafeLanding
             boolean safeLandingExecuted = safeLanding(selectedDrone);
@@ -440,6 +444,10 @@ public class DroneBusinessObject {
 
 
         selectedDrone.setDistanceDestiny(distanceHospitalDestiny);
+    }
+
+    static synchronized public void updateIsOnWater(Drone selectedDrone){
+        selectedDrone.checkAndNotifyOnWaterState();
     }
 
     static synchronized public void updateDistanceSource(Drone selectedDrone) {

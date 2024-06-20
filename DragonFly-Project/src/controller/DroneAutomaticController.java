@@ -318,6 +318,10 @@ public class DroneAutomaticController extends DroneController {
                 return;
             }
 
+            if(DroneController.getInstance().executeLanding){
+                return;
+            }
+
             int oldI = drone.getCurrentPositionI();
             int oldJ = drone.getCurrentPositionJ();
             double newDistanceDestiny = 999999;
@@ -396,6 +400,8 @@ public class DroneAutomaticController extends DroneController {
             DroneBusinessObject.goTo(drone, goDirection);
         }
     }
+
+
 
 
   /*  public void stopBatteryDecrementer() {

@@ -1,12 +1,12 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¯€³8¥Úÿâ€2J$ced548d0-9a09-4b1a-8563-f7e676311595
-m	java:S106$"+Replace this use of System.out by a logger.(ËòŒ”8°Úÿâ€2J$f897c715-8753-47a0-861c-48064736374c
-m	java:S106+"+Replace this use of System.out by a logger.(ôù¾«8²Úÿâ€2J$babc5b53-7d16-473d-820e-e07cbfc7c40c
-r	java:S1067"+Replace this use of System.out by a logger.(¢ŸŸªþÿÿÿÿ8´Úÿâ€2J$5278e04e-1195-421a-b01c-c0811da9840b
-m	java:S106<"+Replace this use of System.err by a logger.(Øú¿®8µÚÿâ€2J$740b336c-68e5-4e8e-ac65-07dc007c81d6
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¯€³8€™‰Ó‚2J$5e2cfdf1-49b1-495b-bb60-0245cf02780b
+m	java:S106$"+Replace this use of System.out by a logger.(ËòŒ”8–™‰Ó‚2J$e32c3b4c-70ba-47e2-b645-05c6c37b532d
+m	java:S106+"+Replace this use of System.out by a logger.(ôù¾«8—™‰Ó‚2J$877b5501-f6cf-468f-b0a5-6bebf1a07e79
+r	java:S106C"+Replace this use of System.out by a logger.(¢ŸŸªþÿÿÿÿ8š™‰Ó‚2J$73a18f76-0ac3-4cab-819f-4944c5d960c6
+m	java:S106H"+Replace this use of System.err by a logger.(Øú¿®8›™‰Ó‚2J$f1d9c2ed-08dd-4f04-ada7-b2468e80d4ee
 ƒ
-java:S1128"@Remove this unused import 'controller.DroneAutomaticController'.(‹òðý8Ê‚ææ€2J$d2ecebd8-10b8-4fc3-b858-a9f8bb48ac05
+java:S1128"@Remove this unused import 'controller.DroneAutomaticController'.(‹òðý8ê¦ÅÛ‚2J$c297a52e-cc0e-4bf2-a0ec-38166e70c335
 }
-java:S1128"5Remove this unused import 'model.entity.drone.Drone'.(Æ­³ôüÿÿÿÿ8Ê‚ææ€2J$b4bf7bd9-6c13-4869-a497-3749ef3c1a4e
+java:S1128"5Remove this unused import 'model.entity.drone.Drone'.(Æ­³ôüÿÿÿÿ8ë¦ÅÛ‚2J$fb6d7a9a-006d-4021-ae46-e49b21ded271
 z
-java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8Ê‚ææ€2J$23982965-d349-4037-9050-4958cf7b199c
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8ë¦ÅÛ‚2J$18e4d7f7-2900-433a-81ad-03e4d1ddf788
