@@ -1,0 +1,32 @@
+
+J
+java:S1066C"/Merge this if statement with the enclosing one.(ææÑÆøÿÿÿÿ
+C
+java:S5411C"(Use a primitive boolean expression here.(ææÑÆøÿÿÿÿ
+D
+java:S5411¢"(Use a primitive boolean expression here.(ÃÒÏÜùÿÿÿÿ
+?
+java:S5411¨"(Use a primitive boolean expression here.(û÷âó
+?
+java:S5411®"(Use a primitive boolean expression here.(Ç…»ª
+D
+java:S5411´"(Use a primitive boolean expression here.(÷™ÿÿÿÿÿ
+X
+java:S4973"<Strings and Boxed types should be compared using "equals()".(É‘Ûªıÿÿÿÿ
+C
+java:S1659"-Declare "collunmPosition" on a separate line.(¤Í˜¯
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(¾”óµ
+Q	java:S125M"<This block of commented-out lines of code should be removed.(¾ÙÂ½
+W
+java:S1854Q"<Remove this useless assignment to local variable "oldValue".(›˜ãÊıÿÿÿÿ
+H
+java:S1481Q"-Remove this unused "oldValue" local variable.(›˜ãÊıÿÿÿÿ
+V	java:S125U"<This block of commented-out lines of code should be removed.(›Ë‘ûÿÿÿÿ
+W
+java:S1854Y"<Remove this useless assignment to local variable "oldValue".(›˜ãÊıÿÿÿÿ
+H
+java:S1481Y"-Remove this unused "oldValue" local variable.(›˜ãÊıÿÿÿÿ
+V	java:S125]"<This block of commented-out lines of code should be removed.(›Ë‘ûÿÿÿÿ
+2
+java:S3626·"Remove this redundant jump.(ûÁİ…

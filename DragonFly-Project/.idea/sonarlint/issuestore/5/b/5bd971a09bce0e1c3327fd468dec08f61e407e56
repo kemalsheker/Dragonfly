@@ -1,0 +1,18 @@
+
+]
+java:S1192Ê"FDefine a constant instead of duplicating this literal "#text" 7 times.(áÖÏü
+J
+java:S2755½"3Disable access to external entities in XML parsing.(×§°
+J
+java:S2755­"3Disable access to external entities in XML parsing.(İ‰Ë–
+P
+java:S1118":Add a private constructor to hide the implicit public one.(ÿáÄ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÿáÄ
+h
+java:S3776»"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Å‡Şy
+R	java:S125Õ"<This block of commented-out lines of code should be removed.(„‡¾Š
+R	java:S125½"<This block of commented-out lines of code should be removed.(„‡¾Š
+R	java:S125æ"<This block of commented-out lines of code should be removed.(«ßíå
+R	java:S125î"<This block of commented-out lines of code should be removed.(¡êòŒ
+R	java:S125"<This block of commented-out lines of code should be removed.(«ßíå

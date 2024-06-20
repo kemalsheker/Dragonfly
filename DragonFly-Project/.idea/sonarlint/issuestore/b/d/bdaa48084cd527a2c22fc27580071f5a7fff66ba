@@ -1,0 +1,19 @@
+
+a
+java:S1192,"FDefine a constant instead of duplicating this literal "*.xml" 3 times.(æºÃ¶ıÿÿÿÿ
+?
+java:S1481")Remove this unused "vBox" local variable.(Ò²Ã
+Z
+java:S1117*"?Rename "fileChooser" which hides the field declared at line 19.(¬Úÿÿÿÿÿ
+_
+java:S2147?"DCombine this catch with the one at line 59, which has the same body.(¯ş¼ ùÿÿÿÿ
+Z
+java:S2147P"DCombine this catch with the one at line 78, which has the same body.(ï­£Ä
+Z
+java:S2147R"DCombine this catch with the one at line 80, which has the same body.(Ã‡²ö
+G
+java:S1481M"1Remove this unused "successfully" local variable.(âÒğÁ
+M
+java:S1068"2Remove this unused "rootAnchorPane" private field.(Ö‹ûıÿÿÿÿ
+S
+java:S1144a"=Remove this unused private "configureFileChooserSave" method.(ÎœÉş
