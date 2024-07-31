@@ -75,6 +75,10 @@ The final step consists of starting the execution of the application, by clickin
 
 By clicking on the "Restart" button, the user restarts the execution, i.e., the initial position and initial battery of the drones are restored and the user can start a new simulation.
 
+### 4) Jetty Implementation for Adaptation Module Integration
+
+Dragonfly uses Eclipse Jetty. In Dragonfly, Jetty is configured to create webhooks that enable the simulator to send data to an external module in real time.
+
 ## License
 
 This artifact is licensed under the BSD 2-Clause License; the artifact may not be used except in compliance with the License. Conditions to redistribute and use this artifact in source and binary forms, with or without modification, are detailed in LICENSE.md file.
