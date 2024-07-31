@@ -1,27 +1,28 @@
 
+Š
+java:S1192ü"FDefine a constant instead of duplicating this literal "New: " 3 times.(éÊ8õ³Ã–‡2J$6bf06996-d67d-4cce-b7dd-d3144081aa4d
 ›
-java:S1192²"RDefine a constant instead of duplicating this literal "Is change happens" 8 times.(˜˜ëœÿÿÿÿÿ8¢ÒÌ²‚2J$202feaff-7afa-4c7c-a6cb-0e82bfc042b0
+java:S1192Ì"RDefine a constant instead of duplicating this literal "Is change happens" 8 times.(˜˜ëœÿÿÿÿÿ8ö³Ã–‡2J$e3150edb-c5e1-4527-b68f-e5e7a0571279
 
-java:S1192²"GDefine a constant instead of duplicating this literal "Old: " 11 times.(˜˜ëœÿÿÿÿÿ8¢ÒÌ²‚2J$3391cda1-6864-4a83-85bd-cc987425e6d8
-k
-java:S5411%"(Use a primitive boolean expression here.(Ç¥ÎŸ8¦ÒÌ²‚2J$a329b602-969e-4b82-9b46-73a9308ed26f
+java:S1192Ì"GDefine a constant instead of duplicating this literal "Old: " 13 times.(˜˜ëœÿÿÿÿÿ8ö³Ã–‡2J$e63a1e40-9cc2-4515-94c6-2523bfa42370
 x
-java:S1191"5Use classes from the Java API instead of Sun classes.(²¿·ô8¨ÒÌ²‚2J$ff71324a-5013-4c73-8c3d-bf66a506dfb8
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¯€³8ªÒÌ²‚2J$45ea3346-2c63-4fde-9bbf-5fb92aac996b
-s	java:S106²"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8ĞÒÌ²‚2J$d4b3198b-fa2e-41b7-b8f5-149b4b38530f
-s	java:S106·"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8ÑÒÌ²‚2J$1b1446d8-74a5-4dda-b906-179111d46822
-s	java:S106¾"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8ÒÒÌ²‚2J$2bf7fc6e-af56-44f7-83d3-d4e8ffc8894b
-„	java:S125¼"<This block of commented-out lines of code should be removed.(ó‘Íùÿÿÿÿ8ÓÒÌ²‚2J$87f4b2f0-6240-4f67-90e5-63b7d4d89394
-s	java:S106Â"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8ÓÒÌ²‚2J$9833af45-be9b-45f9-b3e4-b19aa9bd72c8
-s	java:S106Æ"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8ÓÒÌ²‚2J$a9fba568-3af6-4443-bece-daee021bd845
-s	java:S106Ê"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8ÔÒÌ²‚2J$9b6cccca-e380-4bac-bb59-e09a4e3e5f90
-s	java:S106Î"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8ÔÒÌ²‚2J$3a4656ed-802c-4d83-8e63-a94648f2f8d7
-s	java:S106Ò"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8ÔÒÌ²‚2J$00dad626-ad3d-4d7b-9a83-43c77082f3e1
-s	java:S106Û"+Replace this use of System.out by a logger.(Ï—Ó„ıÿÿÿÿ8ÕÒÌ²‚2J$f9f61cee-a232-4f48-aeef-2bac68f762a4
-„	java:S125Ù"<This block of commented-out lines of code should be removed.(ó‘Íùÿÿÿÿ8ÕÒÌ²‚2J$b9021004-79d8-4c67-83fe-17efec194825
-s	java:S106â"+Replace this use of System.out by a logger.(´´Ë‚ûÿÿÿÿ8ÕÒÌ²‚2J$d6ee66a3-a95b-47bd-a9d2-99e3e6260bf3
-n	java:S106æ"+Replace this use of System.out by a logger.(éÊ8Ç¼Ò²‚2J$46183790-c626-4607-829f-157d9622cb7b
+java:S1191"5Use classes from the Java API instead of Sun classes.(²¿·ô8ù³Ã–‡2J$33daaed2-b632-424e-8261-e0d47e0d4570
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¯€³8û³Ã–‡2J$2ed04b2a-46b3-4bc6-a4be-969c0da1cc23
+r	java:S106F"+Replace this use of System.out by a logger.(Ñ–µçùÿÿÿÿ8Á´Ã–‡2J$a87a54af-68dc-4a91-9d53-74e96d07becb
+s	java:S106Ì"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8ı´Ã–‡2J$bdb6ead6-d831-497e-9b0a-fe8450fbd421
+s	java:S106Ñ"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8ÿ´Ã–‡2J$86f9a044-ba1f-4161-b642-471ebd05fffa
+s	java:S106Ö"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8€µÃ–‡2J$10712a7c-4989-4f2e-a099-5fc08bc1f0f4
+s	java:S106Ú"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8€µÃ–‡2J$24bfcccd-96c2-4ade-96f4-72fd47fbca81
+s	java:S106Ş"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8µÃ–‡2J$f6f1f9ed-a307-4388-8402-8665540cc8cf
+s	java:S106â"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8‚µÃ–‡2J$dce59641-b9a7-4e74-8267-060db4e96026
+s	java:S106æ"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8ƒµÃ–‡2J$638c95f3-ed2a-4145-b4b7-b0d6655d5d30
+s	java:S106ê"+Replace this use of System.out by a logger.(˜˜ëœÿÿÿÿÿ8„µÃ–‡2J$77145836-711f-4adb-8436-f6f7d9417330
+s	java:S106ñ"+Replace this use of System.out by a logger.(Ï—Ó„ıÿÿÿÿ8†µÃ–‡2J$31b3126a-9239-46ee-952f-a4d062392cb6
+s	java:S106ø"+Replace this use of System.out by a logger.(´´Ë‚ûÿÿÿÿ8‡µÃ–‡2J$1a2a0522-feb9-4118-a760-119dbe7a9878
+n	java:S106ü"+Replace this use of System.out by a logger.(éÊ8ˆµÃ–‡2J$958d5206-f7ce-4ea0-8173-71ced5a73ad4
+n	java:S106‚"+Replace this use of System.out by a logger.(ş®¬Ğ8‰µÃ–‡2J$c00c5737-3076-4784-95d5-48aec1f58bdf
+m	java:S106ˆ"+Replace this use of System.out by a logger.(ÄÈíh8ŠµÃ–‡2J$c9af6a5d-f056-4988-9b6a-0f1baa55efad
 t
-java:S1128"1Remove this unused import 'com.google.gson.Gson'.(–§8ÖÒÌ²‚2J$b32101ad-2791-4528-9bb0-f19f538f92e8
+java:S1128"1Remove this unused import 'com.google.gson.Gson'.(–§8µÃ–‡2J$3dabadd1-42fb-4806-8e73-4fc2774de32f
 €
-java:S1128"=Remove this unused import 'sun.plugin2.util.PojoUtil.toJson'.(²¿·ô8×ÒÌ²‚2J$ca2f61b4-6461-4876-bba7-c40a758dfabc
+java:S1128"=Remove this unused import 'sun.plugin2.util.PojoUtil.toJson'.(²¿·ô8µÃ–‡2J$009911e1-c01e-4a01-89c8-d5f4b4c6f9ec

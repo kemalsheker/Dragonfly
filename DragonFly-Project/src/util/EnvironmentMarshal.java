@@ -1,6 +1,7 @@
 package util;
 
 import controller.*;
+import jettyDeneme.DroneData;
 import model.Cell;
 import model.entity.*;
 import model.entity.boat.Boat;

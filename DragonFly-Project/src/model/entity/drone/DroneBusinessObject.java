@@ -10,6 +10,7 @@ import view.SelectableView;
 import view.drone.DroneView;
 import view.drone.DroneViewImpl;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.TimerTask;
@@ -177,7 +178,6 @@ public class DroneBusinessObject {
     public static boolean safeLanding(Drone selectedDrone) {
         selectedDrone.setIsSafeland(true);
 
-
         return true;
 
     }
@@ -189,44 +189,7 @@ public class DroneBusinessObject {
             return;
         }
 
-
-
-        // System.out.println(selectedDrone.toString());
-
-        KeyCode flyDirectionCommand = selectedDrone.getFlyDirectionCommand();
-
-        if (selectedDrone.getCurrentBattery() > 0 && selectedDrone.getDistanceDestiny() > 0 && flyDirectionCommand != null
-                && !selectedDrone.isReturningToHome()
-                && !selectedDrone.isSafeLand()
-                && !selectedDrone.isBadConnection()
-                && !selectedDrone.isSafeLand() && !DroneController.getInstance().executeLanding && !DroneController.getInstance().safeLanding) {
-
-            flying(selectedDrone, flyDirectionCommand);
-
-            selectedDrone.setFlyDirectionCommand(null);
-
-        }
-
-        if (selectedDrone.isBadConnection()
-                && !selectedDrone.isReturningToHome()
-                && selectedDrone.getCurrentBattery()>10 // da prioridade ao sefaland
-                ) {
-
-
-            returnToHome(selectedDrone);
-
-
-
-
-        }
-
-        if (selectedDrone.isBadConnection() && selectedDrone.isReturningToHome()
-                && selectedDrone.getDistanceSource() == 0) {
-
-            // stopReturnToHome();
-            //returnToHomeStopWatch.stop();
-
-
+        if(Boolean.TRUE.equals(selectedDrone.getExecuteLanding())){
             boolean landingExecuted = landing(selectedDrone);
             if(landingExecuted){
 
@@ -251,21 +214,51 @@ public class DroneBusinessObject {
 
 
             }
+        }
 
 
 
+        // System.out.println(selectedDrone.toString());
+
+        KeyCode flyDirectionCommand = selectedDrone.getFlyDirectionCommand();
+
+        /*if (selectedDrone.getCurrentBattery() > 0 && selectedDrone.getDistanceDestiny() > 0 && flyDirectionCommand != null
+                && !selectedDrone.isBadConnection()
+                && !DroneController.getInstance().executeLanding && !DroneController.getInstance().safeLanding)*/
+        if (selectedDrone.getDistanceDestiny() > 0 && flyDirectionCommand != null
+                /*&& !selectedDrone.isReturnBase()
+                && !selectedDrone.getExecuteLanding()*/ && !selectedDrone.getSafeLanding()){
+
+            flying(selectedDrone, flyDirectionCommand);
+
+            selectedDrone.setFlyDirectionCommand(null);
+        }
+
+        if (Boolean.TRUE.equals(selectedDrone.isReturnBase())
+                && Boolean.TRUE.equals(!selectedDrone.getSafeLanding()) // da prioridade ao sefaland
+                ) {
+            returnToHome(selectedDrone);
+            System.out.println("Test to see when this condition activatesss");
+        }
+
+        if (Boolean.TRUE.equals(selectedDrone.isReturnBase())
+                && selectedDrone.getDistanceSource() == 0) {
+
+            performLandingAndShutDown(selectedDrone);
+            // stopReturnToHome();
+            //returnToHomeStopWatch.stop();
 
         }
 
-        if (selectedDrone.getCurrentBattery() <= 15 && selectedDrone.isNormalMode()) {
+        /*if (selectedDrone.getCurrentBattery() <= 15 && selectedDrone.isNormalMode()) {
             applyEconomyMode(selectedDrone);
-        }
+        }*/
 
         /*if (selectedDrone.getCurrentBattery() <= 15 && selectedDrone.getDistanceDestiny() > 0
                 && !selectedDrone.isSafeLand() && DroneController.getInstance().executeLanding )*/
 
-        if(DroneController.getInstance().executeLanding && selectedDrone.getDistanceDestiny() > 0
-        && DroneController.getInstance().safeLanding) {
+        if(Boolean.TRUE.equals(selectedDrone.getExecuteLanding() && selectedDrone.getDistanceDestiny() > 0)
+        && Boolean.TRUE.equals(selectedDrone.getSafeLanding())) {
 
             //SafeLanding
             boolean safeLandingExecuted = safeLanding(selectedDrone);
@@ -306,29 +299,36 @@ public class DroneBusinessObject {
 
         if (selectedDrone.getDistanceDestiny() == 0) {
             //arrived at destination
-            boolean landingExecuted = landing(selectedDrone);
-            if(landingExecuted){
-
-                boolean landedExecuted =  landed(selectedDrone);
-
-                if(landedExecuted){
-
-                    boolean shutDownExecuted = shutDown(selectedDrone);
-
-                    if(shutDownExecuted){
-
-                        if (selectedDrone.isReturningToHome()) {
-
-                            selectedDrone.setGoingAutomaticToDestiny(false);
-                            selectedDrone.setGoingManualToDestiny(false);
+            performLandingAndShutDown(selectedDrone);
+        }
 
 
-                        }
 
-                        checkAndPrintIfLostDrone(selectedDrone);
+    }
+
+
+
+    public static void performLandingAndShutDown(Drone selectedDrone) {
+        boolean landingExecuted = landing(selectedDrone);
+        if(landingExecuted){
+
+            boolean landedExecuted =  landed(selectedDrone);
+
+            if(landedExecuted){
+
+                boolean shutDownExecuted = shutDown(selectedDrone);
+
+                if(shutDownExecuted){
+
+                    if (selectedDrone.isReturningToHome()) {
+
+                        selectedDrone.setGoingAutomaticToDestiny(false);
+                        selectedDrone.setGoingManualToDestiny(false);
+
 
                     }
 
+                    checkAndPrintIfLostDrone(selectedDrone);
 
                 }
 
@@ -336,14 +336,9 @@ public class DroneBusinessObject {
             }
 
 
-
-
-
         }
-
-
-
     }
+
 
     public static boolean landing(Drone selectedDrone) {
         selectedDrone.setLanding(true);
@@ -369,6 +364,7 @@ public class DroneBusinessObject {
 
         selectedDrone.setCurrentPositionI(newI);
         updateDistances(selectedDrone);
+        updateConnectionStatus(selectedDrone);
     }
 
     public static void flyingUp(Drone selectedDrone) {
@@ -389,6 +385,7 @@ public class DroneBusinessObject {
 
         selectedDrone.setCurrentPositionI(newI);
         updateDistances(selectedDrone);
+        updateConnectionStatus(selectedDrone);
     }
 
     public static void flyingRight(Drone selectedDrone) {
@@ -409,6 +406,7 @@ public class DroneBusinessObject {
 
         selectedDrone.setCurrentPositionJ(newJ);
         updateDistances(selectedDrone);
+        updateConnectionStatus(selectedDrone);
     }
 
     public static void flyingLeft(Drone selectedDrone) {
@@ -430,6 +428,7 @@ public class DroneBusinessObject {
 
         selectedDrone.setCurrentPositionJ(newJ);
         updateDistances(selectedDrone);
+        updateConnectionStatus(selectedDrone);
     }
 
 
@@ -1046,7 +1045,7 @@ public class DroneBusinessObject {
             }
 
         }
-
+        updateConnectionStatus(drone);
 
     }
 
@@ -1142,6 +1141,7 @@ public class DroneBusinessObject {
         currentDrone.setDistanceSource(calculeteDistanceFrom(currentDrone, currentDrone.getSourceCell()));
         currentDrone.setDistanceDestiny(calculeteDistanceFrom(currentDrone, currentDrone.getDestinyCell()));
         mustStopReturnToHomeStopWatch = true;
+        DroneController.getInstance().setReturnBase(currentDrone.getUniqueID(), false);
 
         //todo pog
         ((DroneViewImpl)DroneController.getInstance().getDroneViewFrom(currentDrone.getUniqueID())).applyStyleNotLostDrone();
@@ -1196,6 +1196,16 @@ public class DroneBusinessObject {
         selectedDrone.setBadConnection(false);
     }
 
+    public static void updateConnectionStatus(Drone drone) {
+        Cell currentCell = CellController.getInstance().getCellFrom(drone.getCurrentPositionI(), drone.getCurrentPositionJ());
+        if(Boolean.TRUE.equals(currentCell.getBadConnection())){
+            setBadConnection(drone);
+        }
+        else{
+            setNormalConnection(drone);
+        }
+    }
+
     public static void setStrongWind(Drone currentDrone) {
         currentDrone.setStrongWind(true);
     }
@@ -1206,6 +1216,37 @@ public class DroneBusinessObject {
 
     public static void updateFlyDirectionCommand(KeyCode flyDirectionCommand, Drone selectedDrone) {
         selectedDrone.setFlyDirectionCommand(flyDirectionCommand);
+    }
+
+
+
+    public static List<Integer> getValidDirections(DroneView droneView, CellView targetCellView) {
+        List<Integer> validDirections = new ArrayList<>();
+        int droneRow = droneView.getCurrentCellView().getRowPosition();
+        int droneCol = droneView.getCurrentCellView().getCollunmPosition();
+        int targetRow = targetCellView.getRowPosition();
+        int targetCol = targetCellView.getCollunmPosition();
+
+        if (droneRow > targetRow) {
+            validDirections.add(0); // Up
+        } else if (droneRow < targetRow) {
+            validDirections.add(1); // Down
+        }
+        if (droneCol > targetCol) {
+            validDirections.add(2); // Left
+        } else if (droneCol < targetCol) {
+            validDirections.add(3); // Right
+        }
+        // If the drone is on the same row or column as the target, allow all movements
+        if (droneRow == targetRow) {
+            validDirections.add(0); // Up
+            validDirections.add(1); // Down
+        }
+        if (droneCol == targetCol) {
+            validDirections.add(2); // Left
+            validDirections.add(3); // Right
+        }
+        return validDirections;
     }
 }
 

@@ -10,6 +10,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.TextAlignment;
+import model.Cell;
 import model.entity.drone.Drone;
 import model.entity.drone.DroneBusinessObject;
 import util.SelectHelper;
@@ -112,6 +113,7 @@ public class DroneViewImpl extends DroneView {
         }
 
         // });
+        updateConnectionStatus(drone);
 
     }
 
@@ -411,6 +413,16 @@ public class DroneViewImpl extends DroneView {
 
 
         // });
+    }
+
+    private void updateConnectionStatus(Drone drone){
+        Cell currentCell =  CellController.getInstance().getCellFrom(drone.getCurrentPositionI(), drone.getCurrentPositionJ());
+        if(currentCell.getBadConnection()){
+            applyStyleBadConnection();
+        }
+        else {
+            applyStyleNormalConnection();
+        }
     }
 
 

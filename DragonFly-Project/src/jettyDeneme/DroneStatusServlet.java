@@ -20,6 +20,7 @@ import java.util.stream.Collectors;
 
 public class DroneStatusServlet extends HttpServlet {
 
+    @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String droneId = req.getParameter("droneId");
 
@@ -46,7 +47,9 @@ public class DroneStatusServlet extends HttpServlet {
                 return;
             }
 
-            DroneData droneData = new DroneData(drone);
+
+            DroneData droneData = droneController.getDroneDataFrom(droneId);
+
             Gson gson = new Gson();
             String jsonResponse = gson.toJson(droneData);
 

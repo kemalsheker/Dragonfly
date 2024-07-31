@@ -239,6 +239,8 @@ public class DroneKeyBoardController extends DroneController {
 
 
         DroneData droneData = new DroneData(drone);
+        dataMap.put(uniqueID, droneData);
+
         drone.addListener(droneData);
 
         drone.setSelected(true);

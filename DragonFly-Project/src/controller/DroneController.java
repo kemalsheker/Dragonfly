@@ -33,6 +33,12 @@ public abstract class DroneController {
 
     public boolean safeLanding = false;
 
+    public boolean returnBase = false;
+
+    public boolean seekConnection = false;
+
+    public boolean emergency = false;
+
 
     public static void init(String nameClass){
 
@@ -98,6 +104,10 @@ public abstract class DroneController {
         return droneMap;
     }
 
+    public DroneData getDroneDataFrom(String identifierDrone) {
+        return dataMap.get(identifierDrone);
+    }
+
     public void setDroneMap(Map<String, Drone> droneMap) {
         this.droneMap = droneMap;
     }
@@ -134,31 +144,57 @@ public abstract class DroneController {
 
     }
 
-    public void overrideGoDestinyAutomatic(Boolean override) {
+    public void overrideGoDestinyAutomatic(String droneID, Boolean override) {
+        Drone drone = getDroneFrom(droneID);
         if (Boolean.TRUE.equals(override)) {
-            this.overrideGoDestinyAutomaticFlag = true;
+            drone.setOverrideGoDestinyAutomaticFlag(true);
         } else {
-            this.overrideGoDestinyAutomaticFlag = false;
+            drone.setOverrideGoDestinyAutomaticFlag(false);
         }
     }
 
-
-    public void setExecuteLanding(Boolean l){
-        if(Boolean.TRUE.equals(l)){
-            this.executeLanding = true;
-        }
-        else{
-            this.executeLanding = false;
+    public void setExecuteLanding(String droneID, Boolean execute) {
+        Drone drone = getDroneFrom(droneID);
+        if (Boolean.TRUE.equals(execute)) {
+            drone.setExecuteLanding(true);
+        } else {
+            drone.setExecuteLanding(false);
         }
     }
 
-
-    public void setSafeLanding(Boolean s){
-        if(Boolean.TRUE.equals(s)){
-            this.safeLanding = true;
+    public void setSafeLanding(String droneID, Boolean safe) {
+        Drone drone = getDroneFrom(droneID);
+        if (Boolean.TRUE.equals(safe)) {
+            drone.setSafeLanding(true);
+        } else {
+            drone.setSafeLanding(false);
         }
-        else{
-            this.safeLanding = false;
+    }
+
+    public void setReturnBase(String droneID, Boolean returnBase) {
+        Drone drone = getDroneFrom(droneID);
+        if (Boolean.TRUE.equals(returnBase)) {
+            drone.setReturnBase(true);
+        } else {
+            drone.setReturnBase(false);
+        }
+    }
+
+    public void setSeekConnection(String droneID, Boolean seekConnection) {
+        Drone drone = getDroneFrom(droneID);
+        if (Boolean.TRUE.equals(seekConnection)) {
+            drone.setSeekConnection(true);
+        } else {
+            drone.setSeekConnection(false);
+        }
+    }
+
+    public void setEmergency(String droneID, Boolean emergency) {
+        Drone drone = getDroneFrom(droneID);
+        if (Boolean.TRUE.equals(emergency)) {
+            drone.setEmergency(true);
+        } else {
+            drone.setEmergency(false);
         }
     }
 

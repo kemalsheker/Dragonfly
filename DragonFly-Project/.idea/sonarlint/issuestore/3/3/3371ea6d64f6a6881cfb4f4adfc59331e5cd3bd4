@@ -1,12 +1,17 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¯€³8€™‰Ó‚2J$5e2cfdf1-49b1-495b-bb60-0245cf02780b
-m	java:S106$"+Replace this use of System.out by a logger.(ËòŒ”8–™‰Ó‚2J$e32c3b4c-70ba-47e2-b645-05c6c37b532d
-m	java:S106+"+Replace this use of System.out by a logger.(ôù¾«8—™‰Ó‚2J$877b5501-f6cf-468f-b0a5-6bebf1a07e79
-r	java:S106C"+Replace this use of System.out by a logger.(¢ŸŸªþÿÿÿÿ8š™‰Ó‚2J$73a18f76-0ac3-4cab-819f-4944c5d960c6
-m	java:S106H"+Replace this use of System.err by a logger.(Øú¿®8›™‰Ó‚2J$f1d9c2ed-08dd-4f04-ada7-b2468e80d4ee
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¯€³8‚ªþ–‡2J$c2e41632-2e35-46dd-ae54-ffc2d75aab6a
+m	java:S106-"+Replace this use of System.out by a logger.(ËòŒ”8”ªþ–‡2J$dcbb53e8-6de0-4202-aa76-1691c472e601
+m	java:S1065"+Replace this use of System.err by a logger.(Øú¿®8•ªþ–‡2J$f64b0001-e705-49c3-a15e-7d29243e1c95
+m	java:S106<"+Replace this use of System.out by a logger.(ŠÉ’Õ8–ªþ–‡2J$10bed2c3-beee-4050-a077-133f64c3a5fd
+m	java:S106A"+Replace this use of System.err by a logger.(‰Ê­‘8–ªþ–‡2J$0b23c06c-7fa4-417c-b587-64c745645f2d
+r	java:S106o"+Replace this use of System.out by a logger.(¢ŸŸªþÿÿÿÿ8˜ªþ–‡2J$f5799c4f-d63c-4f01-b1b6-33036931c999
+m	java:S106x"+Replace this use of System.out by a logger.(Õ²”ì8˜ªþ–‡2J$13be5269-f8de-404a-a81b-fc8f407a60d2
+¡
+java:S2142|"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8™ªþ–‡2J$2ad4f3ed-a5eb-469a-b2d5-b6e1849caf25
+|	java:S899{":Do something with the "boolean" value returned by "offer".(óÇ¿8šªþ–‡2J$78d33005-f5ad-45a5-9e98-e0142a3f1f86
+¢
+java:S2142Š"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(üŸ´Â8›ªþ–‡2J$a2f40af2-087a-4c89-9dce-207561208e65
 ƒ
-java:S1128"@Remove this unused import 'controller.DroneAutomaticController'.(‹òðý8ê¦ÅÛ‚2J$c297a52e-cc0e-4bf2-a0ec-38166e70c335
-}
-java:S1128"5Remove this unused import 'model.entity.drone.Drone'.(Æ­³ôüÿÿÿÿ8ë¦ÅÛ‚2J$fb6d7a9a-006d-4021-ae46-e49b21ded271
+java:S1128"@Remove this unused import 'controller.DroneAutomaticController'.(‹òðý8œªþ–‡2J$864bb203-f5bf-47f1-b56e-c2c50459e4a4
 z
-java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8ë¦ÅÛ‚2J$18e4d7f7-2900-433a-81ad-03e4d1ddf788
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8ªþ–‡2J$fe9bc919-b497-4637-8116-3828673bf006

@@ -1,76 +1,78 @@
 
+Œ
+java:S1192‰"HDefine a constant instead of duplicating this literal "Drone[" 11 times.(íÒ÷Û8¯ø±Øƒ2J$d4a150fa-e708-441c-bd01-846920256705
+w
+java:S1066_"/Merge this if statement with the enclosing one.(É½˜Ïùÿÿÿÿ8°ø±Øƒ2J$8b232091-b3d8-43d1-a672-f112b4edece1
+w
+java:S1066l"/Merge this if statement with the enclosing one.(ùäÑºùÿÿÿÿ8°ø±Øƒ2J$76dda835-5959-4e97-85d8-e85f8e89f384
+™
+java:S1104 "QMake WIDTH a static final constant or non-public and provide accessors if needed.(†¬Şèşÿÿÿÿ8±ø±Øƒ2J$0f837765-16a5-42a6-a227-9d50058a3787
+š
+java:S1104!"RMake HEIGHT a static final constant or non-public and provide accessors if needed.(Íëƒ¹ıÿÿÿÿ8±ø±Øƒ2J$96f53fd2-ac62-498d-af7a-f40739429e61
+s
+java:S1444 "+Make this "public static WIDTH" field final(†¬Şèşÿÿÿÿ8²ø±Øƒ2J$4552a997-b628-4986-928c-063ffade4d78
+t
+java:S1444!",Make this "public static HEIGHT" field final(Íëƒ¹ıÿÿÿÿ8²ø±Øƒ2J$5520dac6-8dd2-485c-8a3a-5e1e12e8b6b6
+l
+java:S5411…"(Use a primitive boolean expression here.(½œ¸Î8³ø±Øƒ2J$0494756f-95b5-41d8-9c4a-561c2a17ef0a
+q
+java:S5411"(Use a primitive boolean expression here.(ßÚ˜Öúÿÿÿÿ8³ø±Øƒ2J$efaa7883-1710-451a-bb28-78268974334d
+q
+java:S5411›"(Use a primitive boolean expression here.(ÊîÃüÿÿÿÿ8³ø±Øƒ2J$9356c639-b305-4288-99e5-ae59b4b7980c
+l
+java:S5411¤"(Use a primitive boolean expression here.(ŒÊ8³ø±Øƒ2J$4a4d261d-6996-42e0-b2ff-759cb01bf9d3
+q
+java:S5411­"(Use a primitive boolean expression here.(ÈíÏ³øÿÿÿÿ8³ø±Øƒ2J$d2663342-95ef-4fe3-8e43-f27c3bc369dc
+q
+java:S5411µ"(Use a primitive boolean expression here.(È÷­ûÿÿÿÿ8³ø±Øƒ2J$aa4bfe27-2c41-4b2d-a97e-a3a9b274ccb4
+l
+java:S5411Ô"(Use a primitive boolean expression here.(¿º¹ğ8³ø±Øƒ2J$a08de2e0-2f0e-4b11-9e4c-9eba01c4f216
+q
+java:S5411Û"(Use a primitive boolean expression here.(Ìêà˜úÿÿÿÿ8³ø±Øƒ2J$271d88c2-52e6-4bb2-b450-a49e1f047b05
+l
+java:S5411ë"(Use a primitive boolean expression here.(¿º¹ğ8³ø±Øƒ2J$6873ad3c-3109-4778-9ecb-eacfc3281e66
+l
+java:S5411ñ"(Use a primitive boolean expression here.(ÎËœÁ8³ø±Øƒ2J$f2eec8c5-3b0d-43ac-a7be-cafa4e194def
+q
+java:S5411û"(Use a primitive boolean expression here.(Í÷À”şÿÿÿÿ8³ø±Øƒ2J$7800efb5-0389-4fd7-afa7-8501fecb7bbf
+l
+java:S5411€"(Use a primitive boolean expression here.(×Ö¡õ8³ø±Øƒ2J$f608e44c-1600-413c-a32c-b35b8f03fa0c
+q
+java:S5411¤"(Use a primitive boolean expression here.(ÃııÎúÿÿÿÿ8³ø±Øƒ2J$a138d9e2-9b8f-4321-b910-6f059a154ba8
+€
+java:S4973ÿ"<Strings and Boxed types should be compared using "equals()".(˜ßùÕ8´ø±Øƒ2J$c2671956-ba2f-4538-b4c8-87da401ab6bd
+
+java:S2589^"7Remove this expression which always evaluates to "true"(Ò‹€ ıÿÿÿÿ8®ù±Øƒ2J$b60f3929-2ad5-4c9b-b013-b13dafdfc693
+˜
+java:S3008 "PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¬Şèşÿÿÿÿ8¯ù±Øƒ2J$3b371493-5cb5-4a1a-ac49-3f6463109762
+™
+java:S3008!"QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íëƒ¹ıÿÿÿÿ8¯ù±Øƒ2J$f1942d19-6f18-47ae-9c86-ff2380449387
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ä²ÒÊûÿÿÿÿ8³ù±Øƒ2J$1a0e1e49-bb8f-4c7a-83d2-18fcff8c3b89
+ƒ	java:S125."<This block of commented-out lines of code should be removed.(äâ›ùÿÿÿÿ8´ù±Øƒ2J$a613948f-1110-4c52-b496-c8b435a14f39
+ƒ	java:S125="<This block of commented-out lines of code should be removed.(òè°³ıÿÿÿÿ8µù±Øƒ2J$637aff2b-3014-4b25-b4f7-63803f605d46
+~	java:S125X"<This block of commented-out lines of code should be removed.(ı±â…8¶ù±Øƒ2J$6ca989d7-4bb6-49ed-8a99-ed7fb12bb591
+~	java:S125a"<This block of commented-out lines of code should be removed.(ı±â…8¶ù±Øƒ2J$8ddf94fd-d7a0-48a1-b8f5-25b70753438b
+ƒ	java:S125c"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ8¶ù±Øƒ2J$5bf5ecc3-6082-49c2-bc16-20157b7f483b
+~	java:S125m"<This block of commented-out lines of code should be removed.(ı±â…8¶ù±Øƒ2J$941e267b-637e-45c8-8565-ad5a4f41e1ee
+ƒ	java:S125o"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ8¶ù±Øƒ2J$9c09ccfc-fe41-4f91-8efc-8b1ec670e11b
+ƒ	java:S125s"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ8·ù±Øƒ2J$7cd292fe-c3c3-4381-ba60-c086095c4ef3
+ƒ	java:S125y"<This block of commented-out lines of code should be removed.(–†©Ûÿÿÿÿÿ8·ù±Øƒ2J$8e848981-cf36-42f7-bf68-8968590bdc2e
+	java:S125•"<This block of commented-out lines of code should be removed.(¬Ë³ä8·ù±Øƒ2J$e57b5d6c-d0e3-4034-b9e5-006073dbec31
+	java:S125"<This block of commented-out lines of code should be removed.(Ã›¬²8·ù±Øƒ2J$047b7938-0000-42c9-8e15-25e484852239
+„	java:S125Ï"<This block of commented-out lines of code should be removed.(Œ”š„ıÿÿÿÿ8¹ù±Øƒ2J$3b93d07b-00a5-4049-93e5-73ebfed35cb6
+–
+java:S3776ı"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(ì÷¦³8ºù±Øƒ2J$06376c89-b58a-4518-8457-d96a7ce2184d
 _
-java:S1192‡"HDefine a constant instead of duplicating this literal "Drone[" 11 times.(íÒ÷Û
-J
-java:S1066^"/Merge this if statement with the enclosing one.(É½˜Ïùÿÿÿÿ
-J
-java:S1066k"/Merge this if statement with the enclosing one.(ùäÑºùÿÿÿÿ
-l
-java:S1104"QMake WIDTH a static final constant or non-public and provide accessors if needed.(†¬Şèşÿÿÿÿ
-m
-java:S1104 "RMake HEIGHT a static final constant or non-public and provide accessors if needed.(Íëƒ¹ıÿÿÿÿ
-F
-java:S1444"+Make this "public static WIDTH" field final(†¬Şèşÿÿÿÿ
-G
-java:S1444 ",Make this "public static HEIGHT" field final(Íëƒ¹ıÿÿÿÿ
-?
-java:S5411ƒ"(Use a primitive boolean expression here.(½œ¸Î
-D
-java:S5411Œ"(Use a primitive boolean expression here.(ßÚ˜Öúÿÿÿÿ
-D
-java:S5411™"(Use a primitive boolean expression here.(ÊîÃüÿÿÿÿ
-?
-java:S5411¢"(Use a primitive boolean expression here.(ŒÊ
-D
-java:S5411«"(Use a primitive boolean expression here.(ÈíÏ³øÿÿÿÿ
-D
-java:S5411³"(Use a primitive boolean expression here.(È÷­ûÿÿÿÿ
-?
-java:S5411Ò"(Use a primitive boolean expression here.(¿º¹ğ
-D
-java:S5411Ù"(Use a primitive boolean expression here.(Ìêà˜úÿÿÿÿ
-?
-java:S5411é"(Use a primitive boolean expression here.(¿º¹ğ
-?
-java:S5411ï"(Use a primitive boolean expression here.(ÎËœÁ
-D
-java:S5411ù"(Use a primitive boolean expression here.(Í÷À”şÿÿÿÿ
-?
-java:S5411ş"(Use a primitive boolean expression here.(×Ö¡õ
-S
-java:S4973ı"<Strings and Boxed types should be compared using "equals()".(˜ßùÕ
-R
-java:S2589]"7Remove this expression which always evaluates to "true"(Ò‹€ ıÿÿÿÿ
-k
-java:S3008"PRename this field "WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¬Şèşÿÿÿÿ
-l
-java:S3008 "QRename this field "HEIGHT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íëƒ¹ıÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(ä²ÒÊûÿÿÿÿ
-V	java:S125-"<This block of commented-out lines of code should be removed.(äâ›ùÿÿÿÿ
-V	java:S125<"<This block of commented-out lines of code should be removed.(òè°³ıÿÿÿÿ
-Q	java:S125W"<This block of commented-out lines of code should be removed.(ı±â…
-Q	java:S125`"<This block of commented-out lines of code should be removed.(ı±â…
-V	java:S125b"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ
-Q	java:S125l"<This block of commented-out lines of code should be removed.(ı±â…
-V	java:S125n"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ
-V	java:S125r"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ
-V	java:S125w"<This block of commented-out lines of code should be removed.(–†©Ûÿÿÿÿÿ
-R	java:S125“"<This block of commented-out lines of code should be removed.(¬Ë³ä
-R	java:S125›"<This block of commented-out lines of code should be removed.(Ã›¬²
-W	java:S125Í"<This block of commented-out lines of code should be removed.(Œ”š„ıÿÿÿÿ
-i
-java:S3776û"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(ì÷¦³
-2
-java:S3626–"Remove this redundant jump.(ûÁİ…
-W	java:S125ß"<This block of commented-out lines of code should be removed.(±¯ÖÃûÿÿÿÿ
-N
-java:S1135Ü"2Complete the task associated to this TODO comment.(ÛÉë×üÿÿÿÿ
-R	java:S125‚"<This block of commented-out lines of code should be removed.(ı±â…
-W	java:S125À"<This block of commented-out lines of code should be removed.(úÓ™¥şÿÿÿÿ
-W	java:S125"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ
-O
-java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ
-U
-java:S1128"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª
-N
-java:S1068"3Remove this unused "environmentView" private field.(Å˜’èøÿÿÿÿ
+java:S3626˜"Remove this redundant jump.(ûÁİ…8»ù±Øƒ2J$240f4349-e810-4519-8b7f-e8113d873939
+„	java:S125á"<This block of commented-out lines of code should be removed.(±¯ÖÃûÿÿÿÿ8»ù±Øƒ2J$7594d6ed-8987-4a7b-a4d5-d2ca0219289c
+{
+java:S1135Ş"2Complete the task associated to this TODO comment.(ÛÉë×üÿÿÿÿ8¼ù±Øƒ2J$288e7616-bd3b-4c31-b71a-4c666635e8fa
+	java:S125„"<This block of commented-out lines of code should be removed.(ı±â…8¼ù±Øƒ2J$a979f085-4137-4cba-bbf2-966d6e9772d6
+„	java:S125Â"<This block of commented-out lines of code should be removed.(úÓ™¥şÿÿÿÿ8¾ù±Øƒ2J$ee515876-d2dd-47a7-b408-c6c2d59a35ff
+„	java:S125Ÿ"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ8Àù±Øƒ2J$665aa3cb-97b5-4bb8-a8c9-4271699e865a
+|
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8Áù±Øƒ2J$18c4b006-03ef-4a3d-a03b-de2a2486289c
+‚
+java:S1128"?Remove this unused import 'java.time.format.DateTimeFormatter'.(‰÷÷ª8Áù±Øƒ2J$3b1c6844-cd73-463b-be4a-8aaf030a0188
+{
+java:S1068"3Remove this unused "environmentView" private field.(Å˜’èøÿÿÿÿ8Âù±Øƒ2J$4560b044-e0a4-41a8-bd16-15e38145969f

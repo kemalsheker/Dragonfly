@@ -1,22 +1,20 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¯€³8áĞÀ‹ø1J$02574c6e-b727-4a5c-a2fc-7e8892a6e430
-}
-java:S1161":Add the "@Override" annotation above this method signature(Üâî 8ıĞÀ‹ø1J$0c67b63d-de93-4a43-a46d-d58e38c40457
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì¯€³8áĞÀ‹ø1J$3d4fbf9e-c632-4b1c-82da-7a40be07bbbe
 ˜
-java:S1989'"PHandle the following exception that could be thrown by "getWriter": IOException.(Ğ¯Ìíùÿÿÿÿ8ˆÑÀ‹ø1J$204bc885-2e31-4fef-b7d4-8fa7fbf9a23a
+java:S1989("PHandle the following exception that could be thrown by "getWriter": IOException.(Ğ¯Ìíùÿÿÿÿ8ˆÑÀ‹ø1J$c7ff3c03-f640-4583-b8a2-29946323f9f4
 “
-java:S1989-"PHandle the following exception that could be thrown by "getWriter": IOException.(´Õşê8‰ÑÀ‹ø1J$28414496-2e32-4287-a1e8-5a81cd355243
+java:S1989."PHandle the following exception that could be thrown by "getWriter": IOException.(´Õşê8‰ÑÀ‹ø1J$390597f6-0bbb-4c38-9d2b-43085816f835
 ˜
-java:S19897"PHandle the following exception that could be thrown by "getWriter": IOException.(Ğ¯Ìíùÿÿÿÿ8‹ÑÀ‹ø1J$10000a98-638c-44b0-834c-23d284b7fdf4
+java:S1989:"PHandle the following exception that could be thrown by "getWriter": IOException.(Ğ¯Ìíùÿÿÿÿ8‹ÑÀ‹ø1J$640d538e-82a1-452d-9f8f-b43146f876ec
 €
-java:S1128	"=Remove this unused import 'controller.EnvironmentController'.(Îù”í8ÑÀ‹ø1J$c4b1e92d-dce1-4566-b54f-8b5732c4d3d0
+java:S1128	"=Remove this unused import 'controller.EnvironmentController'.(Îù”í8çÃ¼ğ†2J$f24c8a90-2fec-42c4-b494-3227e5e10f43
 ‹
-java:S1128"CRemove this unused import 'model.entity.drone.DroneBusinessObject'.(ëªüÃøÿÿÿÿ8ÑÀ‹ø1J$8d088ec1-17dd-4563-b864-d298b15fa7b6
+java:S1128"CRemove this unused import 'model.entity.drone.DroneBusinessObject'.(ëªüÃøÿÿÿÿ8èÃ¼ğ†2J$01b4a9be-bf38-4b19-b187-b827d5deed3c
 ~
-java:S1128"6Remove this unused import 'org.eclipse.jetty.util.IO'.(Å½äüÿÿÿÿ8ÑÀ‹ø1J$a1814ed1-1784-47ff-96f3-91b4f196374b
+java:S1128"6Remove this unused import 'org.eclipse.jetty.util.IO'.(Å½äüÿÿÿÿ8éÃ¼ğ†2J$411cf2f8-9910-41cd-b6ab-e17e43b9c091
 s
-java:S1128"0Remove this unused import 'view.SelectableView'.(Œ ë¾8ÑÀ‹ø1J$9bbb1dae-1859-403d-8524-a724714e1b07
+java:S1128"0Remove this unused import 'view.SelectableView'.(Œ ë¾8éÃ¼ğ†2J$7660776d-e6f9-4371-920c-e310a3d18cb0
 a
-java:S1128"Remove this duplicated import.(–§8ÑÀ‹ø1J$6a1fb209-b71b-474b-b711-9fd1748383ad
+java:S1128"Remove this duplicated import.(–§8ÑÀ‹ø1J$d51b3266-76c0-4e2d-99fb-51dfe768d6fe
 v
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ÑÀ‹ø1J$af0a7434-7764-415d-8fcb-e801fa633196
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8êÃ¼ğ†2J$04f0422f-9335-4f2f-9709-8a7be6c8a50b

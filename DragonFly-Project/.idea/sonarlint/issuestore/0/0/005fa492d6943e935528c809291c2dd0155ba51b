@@ -1,40 +1,42 @@
 
-k
-java:S3740;"/Provide the parametrized type for this generic.(ßùÈ°J$75fb0136-c06f-4376-9561-7c71f08224aa
-”
-java:S1659&"XDeclare "consumptionPerBlockTextView" and all following declarations on a separate line.(†µ÷¸J$ce006625-611b-4272-b8c3-5972d8758674
-–
-java:S1659*"UDeclare "consumptionPerBlockLabel" and all following declarations on a separate line.(µÑğÚüÿÿÿÿJ$452d85b9-6ee7-445f-915e-459956a1cdaa
-q
-java:S1659/"0Declare "currentDestinyCell" on a separate line.(È–øöıÿÿÿÿJ$a143bd38-973f-4e7b-be02-5de01be1e99c
-z
-java:S16593"9Declare "wrapperInformationImageView" on a separate line.(Æ‹Ü¡ıÿÿÿÿJ$d1e99eef-8f97-4201-a158-301e92e452ee
-
-java:S1450C"TRemove the "saved" field and declare it as a local variable in the relevant methods.(Î‘ıZJ$214fce5b-666f-4783-90d1-44a193e51a50
-x	java:S125"<This block of commented-out lines of code should be removed.(™®ÓÖJ$8eac550a-33d0-4a59-85ac-34e79c39bda7
-}	java:S125œ"<This block of commented-out lines of code should be removed.(»˜ÒäûÿÿÿÿJ$1baf5d24-7bbc-4f4d-aba7-f0bc91e53ec1
-x	java:S125Á"<This block of commented-out lines of code should be removed.(¸»±ìJ$7ec793f8-5694-4aa5-b8a7-3034e1e0399d
-}	java:S125ß"<This block of commented-out lines of code should be removed.(ÿ°ıŞùÿÿÿÿJ$23f3a59e-ef81-4059-9def-e97f14fd4466
-}	java:S125ó"<This block of commented-out lines of code should be removed.(ƒí‡èüÿÿÿÿJ$3d75843b-1a05-4c89-82a9-9fb30c429c4a
-}	java:S125ú"<This block of commented-out lines of code should be removed.(‹ÔĞûşÿÿÿÿJ$bf9c0034-3eed-46ab-bff4-60920b0fc0ba
+r
+java:S3740;"/Provide the parametrized type for this generic.(ßùÈ°8•”âÑƒ2J$99e4975a-f8ba-4e3a-9307-7f2ea9c6cc56
+œ	java:S115K"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(•±âê8†èôÑƒ2J$eb149a20-2f0f-4be3-9568-777ff416788c
+¡	java:S115M"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ìÀ“±üÿÿÿÿ8‘‡õÑƒ2J$ea0248c9-77f0-4a22-8d62-bddbb300b876
+›
+java:S1659&"XDeclare "consumptionPerBlockTextView" and all following declarations on a separate line.(†µ÷¸8º”âÑƒ2J$a5331f37-0220-43b4-940f-8d6585541ad7
+
+java:S1659*"UDeclare "consumptionPerBlockLabel" and all following declarations on a separate line.(µÑğÚüÿÿÿÿ8º”âÑƒ2J$851f2fc1-b4b5-4bb5-91fd-ecd7452dea63
+x
+java:S1659/"0Declare "currentDestinyCell" on a separate line.(È–øöıÿÿÿÿ8»”âÑƒ2J$013e509f-e229-4b7a-9701-238622a12318
 
-java:S1854•"?Remove this useless assignment to local variable "isAutomatic".(ÒÄÌüÿÿÿÿJ$6e41f316-a7c9-47a1-b8d5-6637805f9870
-r
-java:S1481•"0Remove this unused "isAutomatic" local variable.(ÒÄÌüÿÿÿÿJ$8966cd72-5075-4683-a695-38d11c6ced65
-x	java:S125¸"<This block of commented-out lines of code should be removed.(›ÎÏƒJ$e9f8eb69-535c-4a0f-8de9-903b07046d5a
+java:S16593"9Declare "wrapperInformationImageView" on a separate line.(Æ‹Ü¡ıÿÿÿÿ8»”âÑƒ2J$22c27444-9297-457a-a1bd-f9d9aba61a10
+–
+java:S1450I"TRemove the "saved" field and declare it as a local variable in the relevant methods.(Î‘ıZ8½”âÑƒ2J$7beeefbc-5235-4c9b-8c66-bb3698f29699
+	java:S125™"<This block of commented-out lines of code should be removed.(™®ÓÖ8Ë”âÑƒ2J$fcd7f0c3-1c4c-4d3a-bb2f-52d894b70ed0
+„	java:S125§"<This block of commented-out lines of code should be removed.(»˜Òäûÿÿÿÿ8Ì”âÑƒ2J$6ea033cc-cc9a-4d5c-8ccb-2c1237799a09
+	java:S125Ï"<This block of commented-out lines of code should be removed.(¸»±ì8Ğ”âÑƒ2J$6540e867-904f-4d23-b4cf-eaed5b658515
+„	java:S125ó"<This block of commented-out lines of code should be removed.(ÿ°ıŞùÿÿÿÿ8Ò”âÑƒ2J$f1aa9ca1-4569-491d-b8e9-20de132adf7c
+„	java:S125†"<This block of commented-out lines of code should be removed.(ƒí‡èüÿÿÿÿ8Ô”âÑƒ2J$3d49f046-098d-480b-851b-b0c0320627e8
+„	java:S125"<This block of commented-out lines of code should be removed.(‹ÔĞûşÿÿÿÿ8Õ”âÑƒ2J$243b3a33-9619-4d6d-815f-97b7dff4f4e6
+ˆ
+java:S1854±"?Remove this useless assignment to local variable "isAutomatic".(ÒÄÌüÿÿÿÿ8Ø”âÑƒ2J$647fd655-d8fa-41df-9087-e2e709ef5a97
+y
+java:S1481±"0Remove this unused "isAutomatic" local variable.(ÒÄÌüÿÿÿÿ8Û”âÑƒ2J$39609439-ee48-4090-b5dd-947a128b4e29
+	java:S125Û"<This block of commented-out lines of code should be removed.(›ÎÏƒ8ß”âÑƒ2J$d250e4b9-b741-4eea-9313-800c9b9d5122
 }
-java:S1128"5Remove this unused import 'org.xml.sax.SAXException'.(ü…ãşÿÿÿÿ8ıÅµ§ƒ2J$4e8c4af3-bb21-4c0d-9821-cbdc3bc93e24
+java:S1128"5Remove this unused import 'org.xml.sax.SAXException'.(ü…ãşÿÿÿÿ8â”âÑƒ2J$d5e1e71e-d1eb-49a0-8569-8350c5c423ff
 “
-java:S1128"KRemove this unused import 'javax.xml.parsers.ParserConfigurationException'.(ûıƒøÿÿÿÿ8şÅµ§ƒ2J$e288f6c0-ae68-4d74-b329-2ef70b830dc6
+java:S1128"KRemove this unused import 'javax.xml.parsers.ParserConfigurationException'.(ûıƒøÿÿÿÿ8â”âÑƒ2J$5a8bb46c-cd3f-42d5-8f33-eac16995f32f
 s
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8şÅµ§ƒ2J$046bfbb5-9eec-4c22-a511-4b289b806114
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ã”âÑƒ2J$414dd77a-9728-4759-b35e-99f6c4896300
 v
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8şÅµ§ƒ2J$572fecca-be20-4d02-a823-835f3f5c0dea
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8ã”âÑƒ2J$34818bbc-aa03-4ec9-a55f-5acb7a980f8e
 r
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8şÅµ§ƒ2J$d1fa8300-bc32-4126-b0e4-e2aa1a78ad0e
-{
-java:S1068@":Remove this unused "clickedDestinySettings" private field.(­ë“ŠşÿÿÿÿJ$091440ff-1b2c-4f6d-adf7-c34045c2df47
-z
-java:S1068A"9Remove this unused "clickedSourceSettings" private field.(×àúğúÿÿÿÿJ$3c3e7a4a-6c30-401e-8f8a-047a97caa43c
-d
-java:S1068C")Remove this unused "saved" private field.(Î‘ıZJ$ba2cfc5f-d382-4111-8bc9-b3eafa92fe5d
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8ã”âÑƒ2J$6edebff8-95f2-406b-94cd-20d018d7da73
+‚
+java:S1068F":Remove this unused "clickedDestinySettings" private field.(­ë“Šşÿÿÿÿ8ä”âÑƒ2J$8c128575-f7f3-4966-99bb-7a15474175bd
+
+java:S1068G"9Remove this unused "clickedSourceSettings" private field.(×àúğúÿÿÿÿ8ä”âÑƒ2J$da955663-acf2-4b16-aae8-3e6acd40f48a
+k
+java:S1068I")Remove this unused "saved" private field.(Î‘ıZ8ä”âÑƒ2J$8ba5f68b-8aae-451d-b57e-ad8e4982855f

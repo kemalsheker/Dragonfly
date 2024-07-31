@@ -1,18 +1,20 @@
 
-]
-java:S1192Ê"FDefine a constant instead of duplicating this literal "#text" 7 times.(áÖÏü
-J
-java:S2755½"3Disable access to external entities in XML parsing.(×§°
-J
-java:S2755­"3Disable access to external entities in XML parsing.(İ‰Ë–
-P
-java:S1118":Add a private constructor to hide the implicit public one.(ÿáÄ
-[
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÿáÄ
-h
-java:S3776»"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Å‡Şy
-R	java:S125Õ"<This block of commented-out lines of code should be removed.(„‡¾Š
-R	java:S125½"<This block of commented-out lines of code should be removed.(„‡¾Š
-R	java:S125æ"<This block of commented-out lines of code should be removed.(«ßíå
-R	java:S125î"<This block of commented-out lines of code should be removed.(¡êòŒ
-R	java:S125"<This block of commented-out lines of code should be removed.(«ßíå
+ƒ
+java:S1192Ë"FDefine a constant instead of duplicating this literal "#text" 7 times.(áÖÏüJ$8b560a84-b04f-4ea8-baea-60b5bc74fd3a
+p
+java:S2755®"3Disable access to external entities in XML parsing.(İ‰Ë–J$c37ca210-fdd6-4b13-9ed7-065b24c45609
+p
+java:S2755¾"3Disable access to external entities in XML parsing.(×§°J$0ac0f9b5-b4fe-4c26-bb16-ed6d1ccb0c61
+v
+java:S1118":Add a private constructor to hide the implicit public one.(ÿáÄJ$7c049d07-d889-46d1-8c72-2d0e035ba9c4
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÿáÄJ$0ad6b941-f26b-4c99-93e1-e16b1cfb1044
+
+java:S3776¼"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Å‡ŞyJ$27510d9a-0a6b-40bf-8a45-5f46921d1977
+x	java:S125Ö"<This block of commented-out lines of code should be removed.(„‡¾ŠJ$d78b34f6-c0a9-466b-a717-a371463fa477
+x	java:S125¾"<This block of commented-out lines of code should be removed.(„‡¾ŠJ$234776a4-4cd2-42f0-b5d8-db81618cf852
+x	java:S125ç"<This block of commented-out lines of code should be removed.(«ßíåJ$26977eeb-25ac-46d5-9eb2-dc5362fd0ab9
+x	java:S125ï"<This block of commented-out lines of code should be removed.(¡êòŒJ$54f14e28-213a-4637-98c1-781e1fb46cff
+x	java:S125Ÿ"<This block of commented-out lines of code should be removed.(«ßíåJ$de860ecf-d402-4a65-9edf-41d373d9be36
+u
+java:S1128"2Remove this unused import 'jettyDeneme.DroneData'.(¯³£8¶ô’ı…2J$ea756ce4-9e44-45d0-b618-f24c4aeacc78

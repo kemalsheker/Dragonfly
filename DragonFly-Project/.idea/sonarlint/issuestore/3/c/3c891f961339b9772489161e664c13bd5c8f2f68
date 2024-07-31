@@ -1,32 +1,38 @@
 
 Ÿ
-java:S1104A"WMake COUNT_DRONE a static final constant or non-public and provide accessors if needed.(ú³¬¾üÿÿÿÿ8Šñş“2J$dd518fea-f5be-4388-87f5-7bdc4f7d7581
+java:S1104L"WMake COUNT_DRONE a static final constant or non-public and provide accessors if needed.(ú³¬¾üÿÿÿÿ8´‹Ü¡…2J$014ddc3f-f9c1-435e-82a2-0404758c1abb
 y
-java:S1444A"1Make this "public static COUNT_DRONE" field final(ú³¬¾üÿÿÿÿ8‹ñş“2J$8d074aa6-1a53-415c-8aa9-74b19b422edd
+java:S1444L"1Make this "public static COUNT_DRONE" field final(ú³¬¾üÿÿÿÿ8µ‹Ü¡…2J$74bf40a7-432b-40a7-9643-f3b1baa569ef
 €
-java:S4973á"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8ñş“2J$3fb7472a-4b8d-417e-bd0c-c49ba9e34f83
+java:S4973Œ"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8·‹Ü¡…2J$5aec194a-300e-4a3a-895c-dfda9a0fd232
 €
-java:S4973ò"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8ñş“2J$aff7ac9f-86d8-4da8-9786-3403632541f8
+java:S4973"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8·‹Ü¡…2J$1427b01d-e176-4c6c-8be2-64db03c4bc8b
 €
-java:S4973ƒ"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8ñş“2J$da5e50eb-9f07-4aba-a1c9-068631abd776
+java:S4973”"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8·‹Ü¡…2J$6d8abcb7-c626-423d-8349-322dceef4ec7
 €
-java:S4973"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8‘ñş“2J$f0f3ee88-0cff-474b-a180-86df5054a7f0
+java:S4973¥"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8·‹Ü¡…2J$3e89c1da-e294-4913-90bd-f07755014bb2
 €
-java:S4973©"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8‘ñş“2J$7d1e293e-483d-4d8a-a2fe-bb9b48513b1a
+java:S4973¶"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8·‹Ü¡…2J$94e6aada-f53e-444e-bc88-d5a8de43b9cf
 €
-java:S4973¼"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8‘ñş“2J$df1f5ba1-2900-4af5-9913-f4d1f1b7e89f
+java:S4973Ñ"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8·‹Ü¡…2J$38042ab6-809e-4196-8acc-7e86f49c935a
 €
-java:S4973Ç"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8‘ñş“2J$d8d6efc0-ebc3-41e6-b29e-096f54099d0f
+java:S4973Ü"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8·‹Ü¡…2J$5ddf673e-d272-491f-8846-485385b5a201
 €
-java:S4973é"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8’ñş“2J$01280a7e-0363-4240-8e02-6ee3ace64c9a
+java:S4973ï"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8·‹Ü¡…2J$7ae73eb8-3aca-4bd4-8821-a1400cd9600c
+€
+java:S4973ú"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8·‹Ü¡…2J$9cb96825-8e57-4f5d-97a3-72af418db3bd
+€
+java:S4973œ"<Strings and Boxed types should be compared using "equals()".(óÿØÇ8¸‹Ü¡…2J$173d4c1d-b760-41d8-bded-1c5a715af6b8
 
-java:S3008A"VRename this field "COUNT_DRONE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú³¬¾üÿÿÿÿ8´ñş“2J$c6243125-fd16-4201-b96e-9a8567f69718
+java:S3008L"VRename this field "COUNT_DRONE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú³¬¾üÿÿÿÿ8È‹Ü¡…2J$2a8d3f36-9c42-4021-b38b-d6c306cc4642
 p
-java:S1659".Declare "initialPositionJ" on a separate line.(ãÚİ-8¹ñş“2J$3e6fb889-2a1e-4190-8181-e9ade102542a
+java:S1659".Declare "initialPositionJ" on a separate line.(ãÚİ-8Ë‹Ü¡…2J$afdadf5f-7ff9-4130-9129-706aaee17cec
 v
-java:S1659 ".Declare "currentPositionJ" on a separate line.(º–ï×şÿÿÿÿ8¹ñş“2J$ed4d1281-70a0-4739-ab1b-3ba7fc6e585e
-~	java:S125g"<This block of commented-out lines of code should be removed.(É„ÇÏ8Ãñş“2J$669a3bab-c005-4306-a6b7-ada659b1c0ea
-n	java:S106è"+Replace this use of System.out by a logger.(ğ‡…8ßñş“2J$8fc15138-d723-4c42-8a27-239104431dee
-	java:S125ê"<This block of commented-out lines of code should be removed.(Îâ‰×8şĞÑ”2J$a1fad2fe-c271-4822-a3ec-e15831cf5213
-„	java:S125¿"<This block of commented-out lines of code should be removed.(¹€ö¶ÿÿÿÿÿ8åñş“2J$b2f9ab54-9a6e-4d5e-a92c-e3631c5648fd
-n	java:S106Ø"+Replace this use of System.out by a logger.(ö¬8èñş“2J$ca6a5960-307c-4814-bb79-e3b9801adbba
+java:S1659".Declare "currentPositionJ" on a separate line.(º–ï×şÿÿÿÿ8Ë‹Ü¡…2J$37d2b60d-80e8-4749-b3fb-4b1cfda8b075
+~	java:S125t"<This block of commented-out lines of code should be removed.(É„ÇÏ8Ñ‹Ü¡…2J$6212111d-f656-4768-87d2-db0af855b1f8
+n	java:S106›"+Replace this use of System.out by a logger.(ğ‡…8Ş‹Ü¡…2J$2287051d-acb6-4592-b0ad-cc9acf9040a2
+	java:S125"<This block of commented-out lines of code should be removed.(Îâ‰×8Ş‹Ü¡…2J$4a9d9450-3c28-4abb-9ba2-a15e45d6aa1b
+„	java:S125­"<This block of commented-out lines of code should be removed.(¹€ö¶ÿÿÿÿÿ8ä‹Ü¡…2J$5170e661-8ed7-499b-aa3e-7e3e4bf223bb
+n	java:S106Æ"+Replace this use of System.out by a logger.(ö¬8å‹Ü¡…2J$20047791-a99e-4d5f-a66b-a6ed9a6b75f1
+|
+java:S1068>"4Remove this unused "emergencyLanding" private field.(÷áĞøÿÿÿÿ8æ‹Ü¡…2J$1266f980-ac98-4aa8-a448-36e71f5f9e88

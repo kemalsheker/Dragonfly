@@ -16,6 +16,7 @@ import jettyDeneme.DroneApi;
 import model.entity.*;
 import model.entity.boat.Boat;
 import model.entity.drone.Drone;
+import model.entity.drone.DroneBusinessObject;
 import view.CellView;
 import view.SelectableView;
 import view.antenna.AntennaView;
@@ -45,7 +46,8 @@ public class MainController extends Application {
 
     @FXML
     private
-    ToggleButton startToggleButton, restartToggleButton;
+    ToggleButton startToggleButton, restartToggleButton, emergencyStopToggleButton;
+
 
     @FXML
     private
@@ -137,6 +139,7 @@ public class MainController extends Application {
         ToggleGroup toggleGroup4 = new ToggleGroup();
         startToggleButton.setToggleGroup(toggleGroup4);
         restartToggleButton.setToggleGroup(toggleGroup4);
+        emergencyStopToggleButton.setToggleGroup(toggleGroup4);
 
         List<String> forceWindTypes = new ArrayList<>();
         forceWindTypes.add("Strong");
@@ -172,7 +175,13 @@ public class MainController extends Application {
         droneToggleButton.setOnMouseClicked(event -> droneToggleButtonIsSelected = !droneToggleButtonIsSelected);
 
 
-
+        /*emergencyStopToggleButton.setOnAction(event -> {
+            DroneController.getInstance().setExecuteLanding(true);
+            DroneController.getInstance().notifyStopEnviroment();
+            running = false;
+            disableEnvironmentSettingViews();
+            System.out.println("Emergency landing executed.");
+        });*/
 
 
         startToggleButton.setOnAction(event -> {
@@ -185,6 +194,7 @@ public class MainController extends Application {
 
                 return;
             }
+
 
 
             if(automaticExecutionCheckBox.isSelected()){
@@ -483,9 +493,6 @@ public class MainController extends Application {
 
 
         BoatSettingsPanelController.init(defaultPanelSettingsAnchorPane);
-
-
-
 
     }
 

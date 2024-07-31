@@ -1,0 +1,39 @@
+
+F
+java:S1066ü"/Merge this if statement with the enclosing one.(©š¼
+€
+java:S1488¦"iImmediately return this expression instead of assigning it to the temporary variable "travelledDistance".(†°³¬
+^
+java:S2184”"BCast one of the operands of this addition operation to a "double".(±øÓ×ûÿÿÿÿ
+_
+java:S2184¦"HCast one of the operands of this multiplication operation to a "double".(†°³¬
+c
+java:S3973ë"GUse indentation to denote the code conditionally executed by this "if".(óßÿÿÿÿÿ
+—
+java:S1186W"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Û”½Ÿ
+
+java:S1186¥"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(­ô×™ıÿÿÿÿ
+
+java:S1186×"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ¿üıÿÿÿÿ
+˜
+java:S1186Û"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ‘û½
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(·¼®ıÿÿÿÿ
+P
+java:S2209"5Change this instance-reference to a static reference.(·¼®ıÿÿÿÿ
+V	java:S125["<This block of commented-out lines of code should be removed.(ÉÖßÃüÿÿÿÿ
+Y
+java:S1155n">Use isEmpty() to check whether the collection is empty or not.(¯ÈÍşÿÿÿÿ
+R
+java:S2696–"6Make the enclosing method "static" or remove this set.(·¼®ıÿÿÿÿ
+Q
+java:S2209–"5Change this instance-reference to a static reference.(·¼®ıÿÿÿÿ
+N
+java:S1135¿"2Complete the task associated to this TODO comment.(Ùâÿ¼øÿÿÿÿ
+N
+java:S1135Ó"2Complete the task associated to this TODO comment.(Ùâÿ¼øÿÿÿÿ
+Q	java:S125†"<This block of commented-out lines of code should be removed.(„‹c
+Z
+java:S1659"CDeclare "xFinal" and all following declarations on a separate line.(¹¢âÕ
+W	java:S125˜"<This block of commented-out lines of code should be removed.(úÎÑËúÿÿÿÿ
+W	java:S125 "<This block of commented-out lines of code should be removed.(ëºæòúÿÿÿÿ

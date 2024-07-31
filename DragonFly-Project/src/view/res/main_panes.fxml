@@ -22,7 +22,7 @@
       <AnchorPane fx:id="settingsAnchorPane" layoutY="413.0" prefHeight="303.0" prefWidth="903.0">
          <children>
 
-                        
+
              <ToggleButton fx:id="riverToggleButton" layoutX="2.0" layoutY="5.0" selected="false" text="River">
 
             </ToggleButton>
@@ -75,7 +75,7 @@
             <ToggleButton fx:id="treeToggleButton" layoutX="145.0" layoutY="84.0" mnemonicParsing="false" text="Tree" />
             <ComboBox fx:id="windForceCombBox" layoutX="80.0" layoutY="157.0" prefWidth="150.0" />
 
-                        
+
                                  </children>
       </AnchorPane>
       <AnchorPane fx:id="loggerAnchorPane" layoutX="602.0" layoutY="421.0" prefHeight="222.0" prefWidth="206.0">
@@ -86,8 +86,9 @@
       <CheckBox fx:id="automaticExecutionCheckBox" layoutX="739.0" layoutY="654.0" mnemonicParsing="false" text="Automatic Execution" />
       <ToggleButton fx:id="startToggleButton" disable="false" layoutX="846.0" layoutY="678.0" mnemonicParsing="false" text="Start" />
       <ToggleButton fx:id="restartToggleButton" disable="false" layoutX="768.0" layoutY="678.0" mnemonicParsing="false" text="Restart" />
+      <ToggleButton fx:id="emergencyStopToggleButton" disable="false" layoutX="630.0" layoutY="678.0" mnemonicParsing="false" text="Emergency Stop" visible="false" managed="false" />
       <Label disable="true" layoutX="39.0" layoutY="394.0" text="Graphical elements panel">
-         <font>
+      <font>
             <Font size="15.0" />
          </font>
       </Label>

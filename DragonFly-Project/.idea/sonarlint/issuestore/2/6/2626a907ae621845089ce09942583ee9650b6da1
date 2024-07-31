@@ -1,40 +1,58 @@
 
 ­
-java:S1104"jMake overrideGoDestinyAutomaticFlag a static final constant or non-public and provide accessors if needed.(«ŠÍ˜8ì›÷Ò‚2J$b42109ed-f20e-4a67-b956-6884962ba3d6
+java:S1104"jMake overrideGoDestinyAutomaticFlag a static final constant or non-public and provide accessors if needed.(«ŠÍ˜8Ëæı…2J$493ba45f-5e0b-49db-847a-91446093e4c3
 ¢
-java:S1104 "ZMake executeLanding a static final constant or non-public and provide accessors if needed.(Ñ—Ş®şÿÿÿÿ8í›÷Ò‚2J$e58ec74d-e69e-4d90-8cde-f33881c696d5
+java:S1104 "ZMake executeLanding a static final constant or non-public and provide accessors if needed.(Ñ—Ş®şÿÿÿÿ8Ìæı…2J$62b57ff4-3f11-47cb-bb7a-56435a94327d
 Ÿ
-java:S1104""WMake safeLanding a static final constant or non-public and provide accessors if needed.(…õ«Ùøÿÿÿÿ8í›÷Ò‚2J$de0325b1-8e09-4712-9914-2c73ef0902d2
+java:S1104""WMake safeLanding a static final constant or non-public and provide accessors if needed.(…õ«Ùøÿÿÿÿ8Ìæı…2J$f13bfe3b-c2ef-48b4-af6a-0e2c3da93a8d
+™
+java:S1104$"VMake returnBase a static final constant or non-public and provide accessors if needed.(õ•åô8Íæı…2J$342ee1c3-877c-48d4-a6e2-b5b6b381735c
+¢
+java:S1104&"ZMake seekConnection a static final constant or non-public and provide accessors if needed.(Î”’÷ıÿÿÿÿ8Íæı…2J$0c87c11e-f034-4010-a551-dff5d029e44e
+˜
+java:S1104("UMake emergency a static final constant or non-public and provide accessors if needed.(ú¡øñ8Íæı…2J$439e5782-5d42-4d4c-b7ab-a9fd08205c95
 ˆ
-java:S1124>"EReorder the modifiers to comply with the Java Language Specification.(Š–—¦8—œ÷Ò‚2J$4857e889-d70c-4feb-a948-3a6215a6b7d3
-~	java:S125<"<This block of commented-out lines of code should be removed.(ë¯„Ú8˜œ÷Ò‚2J$f8f21ae2-b466-465b-aea6-4d91dad919bb
+java:S1124D"EReorder the modifiers to comply with the Java Language Specification.(Š–—¦8›çı…2J$5bb4a433-bfc2-49d6-94ac-4eb89fdb896c
+~	java:S125B"<This block of commented-out lines of code should be removed.(ë¯„Ú8çı…2J$37374071-2e73-4530-86d0-5374a5b0e434
 ‡
-java:S1124@"EReorder the modifiers to comply with the Java Language Specification.(»Ş·>8™œ÷Ò‚2J$0c6d8a52-d2f8-433b-b0bf-2f3df2c53edb
+java:S1124F"EReorder the modifiers to comply with the Java Language Specification.(»Ş·>8çı…2J$2179e122-4b4d-4c59-8dc3-aa5c59ceebd8
 
-java:S1124G"EReorder the modifiers to comply with the Java Language Specification.(²¿ÌÓşÿÿÿÿ8šœ÷Ò‚2J$e61ba25e-433f-46c8-ac41-de1b6dbd166b
+java:S1124M"EReorder the modifiers to comply with the Java Language Specification.(²¿ÌÓşÿÿÿÿ8Ÿçı…2J$4da55f4a-52af-4d0b-b88b-a060cfd08cf0
 ˆ
-java:S1124I"EReorder the modifiers to comply with the Java Language Specification.( ‘¦­8›œ÷Ò‚2J$bb63bbcc-3e4b-499b-9e65-9514096b2eaf
+java:S1124O"EReorder the modifiers to comply with the Java Language Specification.( ‘¦­8 çı…2J$475928a3-f2eb-44ab-8c34-fff84014bea2
 
-java:S1124K"EReorder the modifiers to comply with the Java Language Specification.(ÚöŒ€ùÿÿÿÿ8œœ÷Ò‚2J$2bc477d2-c157-4771-918d-9c26c125cf5a
+java:S1124Q"EReorder the modifiers to comply with the Java Language Specification.(ÚöŒ€ùÿÿÿÿ8¡çı…2J$3a3cc9a9-dcb0-4f52-a828-5d994892387b
 ˆ
-java:S1124M"EReorder the modifiers to comply with the Java Language Specification.(¬Í¾…8œœ÷Ò‚2J$8440abb2-347e-4eb9-b98a-d4a4c68852f3
+java:S1124S"EReorder the modifiers to comply with the Java Language Specification.(¬Í¾…8¢çı…2J$869f6739-c75c-44ec-ad1a-377cfbe393dd
 ~
-java:S2696^"6Make the enclosing method "static" or remove this set.(Ÿ¿Š‚ÿÿÿÿÿ8¡œ÷Ò‚2J$c6a47630-e09d-4d1a-8d04-7d0800756d62
+java:S2696d"6Make the enclosing method "static" or remove this set.(Ÿ¿Š‚ÿÿÿÿÿ8ªçı…2J$7cdcb8dd-d55c-48e8-ae50-48358b3cede3
 }
-java:S2209^"5Change this instance-reference to a static reference.(Ÿ¿Š‚ÿÿÿÿÿ8£œ÷Ò‚2J$f6234b1d-e44b-42ca-b689-e29bec8facf8
+java:S2209d"5Change this instance-reference to a static reference.(Ÿ¿Š‚ÿÿÿÿÿ8¬çı…2J$efd407a1-c665-4b4b-a1f9-15679af18f95
 ~
-java:S2696f"6Make the enclosing method "static" or remove this set.(¬¾’šşÿÿÿÿ8¤œ÷Ò‚2J$67786e45-56d7-4674-ab67-a538e6f1d9c0
+java:S2696p"6Make the enclosing method "static" or remove this set.(¬¾’šşÿÿÿÿ8®çı…2J$78c39d14-0331-4ae5-a44f-dcc33e275758
 }
-java:S2209f"5Change this instance-reference to a static reference.(¬¾’šşÿÿÿÿ8¤œ÷Ò‚2J$36c297cf-25ab-4be7-bec6-b183d893fe60
+java:S2209p"5Change this instance-reference to a static reference.(¬¾’šşÿÿÿÿ8®çı…2J$08332ee1-e4aa-4a73-bcb1-e338ac1cfa42
 y
-java:S2696n"6Make the enclosing method "static" or remove this set.(İÄÜü8¦œ÷Ò‚2J$e9aaae4e-5885-4c18-96c3-2f23db429aa0
+java:S2696x"6Make the enclosing method "static" or remove this set.(İÄÜü8°çı…2J$ed6b643b-3ad8-40b3-8c59-1423b4597218
 x
-java:S2209n"5Change this instance-reference to a static reference.(İÄÜü8¦œ÷Ò‚2J$b1c6ab42-8dc2-4428-a047-7a6346d2a3b2
+java:S2209x"5Change this instance-reference to a static reference.(İÄÜü8±çı…2J$ea11095f-0f16-4b57-a2f8-416c5bda5db9
+‹
+java:S1126•"BReplace this if-then-else statement by a single method invocation.(ÕÂ „şÿÿÿÿ8ş¿ …2J$bac6222d-29e4-46af-9e91-a3967bde8963
+†
+java:S1126"BReplace this if-then-else statement by a single method invocation.(”şÀÃ8ş¿ …2J$336d1897-976a-4432-9b63-0276a0e4eb2a
+†
+java:S1126§"BReplace this if-then-else statement by a single method invocation.(ÿ‘¼ï8‘ş¿ …2J$e253b399-910d-4c07-b8a4-f4f70923078f
+‹
+java:S1126°"BReplace this if-then-else statement by a single method invocation.(‡·×äÿÿÿÿÿ8’ş¿ …2J$3e7af877-b181-4af1-a0b5-3388fe7bfe1e
+‹
+java:S1126¹"BReplace this if-then-else statement by a single method invocation.(…²òˆüÿÿÿÿ8“ş¿ …2J$5110f316-e64d-447f-97a9-54469f05a268
+†
+java:S1126Â"BReplace this if-then-else statement by a single method invocation.(³ñÃˆ8“ş¿ …2J$0de5a9eb-0197-4cbd-8572-5d4669a67672
 z
-java:S1128"7Remove this unused import 'jettyDeneme.DroneWebSocket'.(ØÜÂ8®œ÷Ò‚2J$546c6be5-513a-431c-b73e-c0bd710f7735
+java:S1128"7Remove this unused import 'jettyDeneme.DroneWebSocket'.(ØÜÂ8¶àÛ£…2J$4a25e28e-d8b5-43d2-8f19-c35a9b2ebaea
 j
-java:S1128"'Remove this unused import 'model.Cell'.(†¨‡¦8¯œ÷Ò‚2J$d393375f-7929-4675-bb32-851938268055
+java:S1128"'Remove this unused import 'model.Cell'.(†¨‡¦8¶àÛ£…2J$81738604-7fdc-4d7a-9ab4-d23783928e9b
 z
-java:S1128"2Remove this unused import 'model.entity.Hospital'.(“ öªüÿÿÿÿ8¯œ÷Ò‚2J$bbd082c4-4810-4fb0-927f-fc47f1d4e2ba
+java:S1128"2Remove this unused import 'model.entity.Hospital'.(“ öªüÿÿÿÿ8¶àÛ£…2J$d5958fe7-3798-4aa0-ad0d-6dc36c32266d
 }
-java:S1128"5Remove this unused import 'view.antenna.AntennaView'.(“Ùìãûÿÿÿÿ8¯œ÷Ò‚2J$e9cfaf18-ad0f-494e-8104-109d3b45d52b
+java:S1128"5Remove this unused import 'view.antenna.AntennaView'.(“Ùìãûÿÿÿÿ8¶àÛ£…2J$5cf471a6-513a-46e8-9f48-7f0108e56dc3

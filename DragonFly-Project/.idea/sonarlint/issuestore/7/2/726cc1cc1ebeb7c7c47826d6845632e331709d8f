@@ -1,21 +1,25 @@
 
 ¡
-java:S1488Ğ"_Immediately return this expression instead of assigning it to the temporary variable "antenna".(”´©¾øÿÿÿÿJ$1615e362-1490-4d91-a0fa-fbad30e30b39
+java:S1488Ò"_Immediately return this expression instead of assigning it to the temporary variable "antenna".(”´©¾øÿÿÿÿJ$7fcb826b-393c-49ca-9c20-75c327ca6dee
 s
-java:S1135 "2Complete the task associated to this TODO comment.(…ÉöÿÿÿÿÿJ$b7e27786-b723-4f38-96e9-8895d021cca2
-|	java:S125$"<This block of commented-out lines of code should be removed.(ƒæ§áûÿÿÿÿJ$6b6c311d-3e72-4097-b64b-c87ad5d564f1
+java:S1135!"2Complete the task associated to this TODO comment.(…ÉöÿÿÿÿÿJ$c36ebb08-05af-48cb-9100-e9ce8943d055
+|	java:S125%"<This block of commented-out lines of code should be removed.(ƒæ§áûÿÿÿÿJ$e031dc5d-ac6a-4caa-a4c7-43316d3d24e1
 Z
-java:S2119Š"Save and re-use this "Random".(¼İÅfJ$d277c072-3644-402f-ba48-2895e03c0a26
+java:S2119‹"Save and re-use this "Random".(¼İÅfJ$ae9d9c0d-1401-4c7c-94bc-e930405b9f86
 i
-java:S1602",Remove useless curly braces around statement(ÃÉş©J$9007f54b-09d2-4f94-abf6-6cf1a42ddb8f
+java:S1602",Remove useless curly braces around statement(ÃÉş©J$a6651cc8-0974-45eb-8732-59260f377f62
 i
-java:S1602™",Remove useless curly braces around statement(ÃÉş©J$15710af3-400a-4962-b8b0-216d3661e1b1
-}	java:S125¨"<This block of commented-out lines of code should be removed.(û¡îšşÿÿÿÿJ$18b2fbe4-99e2-4383-8800-57c053ece1d7
+java:S1602š",Remove useless curly braces around statement(ÃÉş©J$2c98d78b-75a5-4f07-a4a3-3b18c25ac3fa
+}	java:S125©"<This block of commented-out lines of code should be removed.(û¡îšşÿÿÿÿJ$e4a71755-4b92-4b6e-b4c1-d70ef512fe32
 r
-java:S2209«"5Change this instance-reference to a static reference.(“»àÿJ$8cab78d2-ea44-4955-9e6c-ab62e1e805ef
-x	java:S125Ã"<This block of commented-out lines of code should be removed.(À†ÀÒJ$e3175b1f-1a27-411a-ae5d-cd3e922758f8
-}	java:S125Å"<This block of commented-out lines of code should be removed.(¾Ê·ÁşÿÿÿÿJ$f5832e2b-fd06-408d-933b-e5208dd437fe
-	java:S125ê"<This block of commented-out lines of code should be removed.(ıìØÔ8Óªã÷1J$926f0a69-9f83-47ba-b132-732b46a1b695
-e	java:S108»")Either remove or fill this block of code.(”ı¾J$f3c3815a-6f41-4416-91b8-2892f23b5837
+java:S2209¬"5Change this instance-reference to a static reference.(“»àÿJ$7293dcdc-be49-4ddd-9325-e82e3742d85e
+x	java:S125Ä"<This block of commented-out lines of code should be removed.(À†ÀÒJ$a6635815-c452-46a7-8ba7-a1b61d08c69c
+}	java:S125Æ"<This block of commented-out lines of code should be removed.(¾Ê·ÁşÿÿÿÿJ$c59aba03-3382-498e-a6e7-bb803f23cd06
+	java:S125ë"<This block of commented-out lines of code should be removed.(ıìØÔ8Óªã÷1J$67468c74-32b3-40ad-85dd-174eb9cb3e29
+
+java:S1854ı"=Remove this useless assignment to local variable "droneData".(ÜÂ§Ş8ÀúñÍ†2J$f5ae00cd-4dd2-4a5d-b855-91710c63cc20
+r
+java:S1481ı".Remove this unused "droneData" local variable.(ÜÂ§Ş8ÆúñÍ†2J$2596a837-052f-4e74-84f2-b0cfc4ef2003
+e	java:S108½")Either remove or fill this block of code.(”ı¾J$21352e62-3ce6-47ca-bd93-c5268ff42876
 m
-java:S1068",Remove this unused "executor" private field.(ƒëíşÿÿÿÿJ$0e6519ad-4ef5-4a1b-95be-7dd3fd9aa347
+java:S1068",Remove this unused "executor" private field.(ƒëíşÿÿÿÿJ$62d88ae3-70d1-4d25-b4dd-619f1d106b5b

@@ -27,6 +27,10 @@ public class DroneData implements Drone.Listener{
 
     private Boolean safeLand;
 
+    private String badConnectionAction;
+
+    private Boolean emergency;
+
 
     public DroneData(Drone drone) {
 
@@ -34,12 +38,20 @@ public class DroneData implements Drone.Listener{
 
         this.isAutomatic = drone.isAutomatic();
 
-        if (drone.isBadConnection()) {
+        if (Boolean.TRUE.equals(drone.isBadConnection())) {
             this.goodConnection = false;
             this.badConnection = true;
         } else {
             this.goodConnection = true;
             this.badConnection = false;
+        }
+
+        if(Boolean.TRUE.equals(drone.isReturnBase())) {
+            this.badConnectionAction = "returnBase";
+        }
+
+        if(Boolean.TRUE.equals(drone.isSeekConnection())) {
+            this.badConnectionAction = "seekConnection";
         }
 
         this.isOnWater = drone.isOnWater();
@@ -53,6 +65,9 @@ public class DroneData implements Drone.Listener{
         this.consumptionPerBlock = drone.getBatteryPerBlock();
         this.landing = drone.getLanding();
         this.safeLand = drone.isSafeLand();
+
+        DroneWebSocket.broadcastDroneData(this);
+        System.out.println(this.id + ": DroneData with this ID created");
     }
 
     public void setUniqueID(String uniqueID) {
@@ -167,6 +182,17 @@ public class DroneData implements Drone.Listener{
         this.consumptionPerBlock = consumptionPerBlock;
     }
 
+    public String getBadConnectionAction() {
+        return badConnectionAction;
+    }
+
+    public void setBadConnectionAction(String badConnectionAction) {
+        this.badConnectionAction = badConnectionAction;
+    }
+
+    public Boolean getEmergency(){return  emergency;}
+
+    public void setEmergency(Boolean e) {this.emergency = e;}
 
 
     // Implement the Drone.Listener interface
@@ -185,8 +211,6 @@ public class DroneData implements Drone.Listener{
             case "setCurrentPositionI":
             case "setCurrentPositionJ":
                 setCurrentPosition(drone.getCurrentPositionI() + "," + drone.getCurrentPositionJ());
-                //DroneWebSocket.broadcastDroneData(this);
-                //DroneBusinessObject.updateItIsOver(drone);
                 System.out.println("Is change happens" + "Old: " + oldValue + "New:" + newValue);
                 break;
             case "setDistanceSource":
@@ -214,8 +238,6 @@ public class DroneData implements Drone.Listener{
                 break;
             case "isOnWater":
                 setOnWater((Boolean) newValue);
-                //DroneWebSocket.broadcastDroneData(this);
-                //DroneBusinessObject.updateItIsOver(drone);
                 System.out.println("Is onWater change happens" + "Old: " + oldValue + "New:" + newValue);
                 break;
             case "setStrongWind":
@@ -229,11 +251,22 @@ public class DroneData implements Drone.Listener{
                 setSafeLand((Boolean) newValue);
                 System.out.println("Status of safeLand " + "Old: " + oldValue + "New: " + newValue);
                 break;
+            case "setReturnBase":
+                if(Boolean.TRUE.equals(newValue)){
+                    setBadConnectionAction("returnBase");
+                }
+                System.out.println("Status of returnBase " + "Old: " + oldValue + "New: " + newValue);
+                break;
+            case "setSeekConnection":
+                if(Boolean.TRUE.equals(newValue)){
+                    setBadConnectionAction("seekConnection");
+                }
+                System.out.println("Status of seekConnection " + "Old: " + oldValue + "New: " + newValue);
+                break;
             default:
                 // Handle other changes if needed
                 break;
         }
-
         DroneWebSocket.broadcastDroneData(this);
         DroneBusinessObject.updateItIsOver(drone);
     }

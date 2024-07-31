@@ -58,6 +58,12 @@ public class DroneSettingsPanelController extends SettingsPanelController<Drone>
     @FXML
     private ComboBox wrapperComboBox;
 
+    @FXML
+    private ComboBox<String> connectionBehaviorComboBox;
+
+    @FXML
+    private Label connectionBehaviorLabel;
+
 
     private static DroneSettingsPanelController instance = null;
     private AnchorPane defaultPanelSettingsAnchorPane;
@@ -65,6 +71,10 @@ public class DroneSettingsPanelController extends SettingsPanelController<Drone>
     private boolean clickedSourceSettings;
     private boolean waitForClickInCell = false;
     private boolean saved = false;
+
+    private static final String returnBase = "Return Base";
+
+    private static final String seekConnection = "Seek Connection";
 
 
     public static void init(AnchorPane defaultPanelSettingsAnchorPane) {
@@ -100,6 +110,7 @@ public class DroneSettingsPanelController extends SettingsPanelController<Drone>
         ObservableList<String> nameOptions =
                 FXCollections.observableArrayList(wrapperNameList);
         wrapperComboBox.setItems(nameOptions);
+
 
 
     }
@@ -174,6 +185,9 @@ public class DroneSettingsPanelController extends SettingsPanelController<Drone>
            alert.showAndWait();
         });
 
+
+        ObservableList<String> connectionOptions = FXCollections.observableArrayList(returnBase, seekConnection);
+        connectionBehaviorComboBox.setItems(connectionOptions);
     }
 
     @Override
@@ -192,6 +206,9 @@ public class DroneSettingsPanelController extends SettingsPanelController<Drone>
         saveButton.setDisable(true);
        /* sourceSettingsImageView.setDisable(true);
         sourceSettingsImageView.setOpacity(0.3);*/
+
+        connectionBehaviorLabel.setDisable(true);
+        connectionBehaviorComboBox.setDisable(true);
 
         destinySettingsImageView.setDisable(true);
         destinySettingsImageView.setOpacity(0.3);
@@ -215,6 +232,9 @@ public class DroneSettingsPanelController extends SettingsPanelController<Drone>
         initialBatteryLabel.setDisable(false);
         initialBatteryTextView.setDisable(false);
 
+        connectionBehaviorLabel.setDisable(false);
+        connectionBehaviorComboBox.setDisable(false);
+
         sourceLabel.setDisable(false);
         targetLabel.setDisable(false);
         wrapperLabel.setDisable(false);
@@ -226,7 +246,6 @@ public class DroneSettingsPanelController extends SettingsPanelController<Drone>
         destinySettingsImageView.setDisable(false);
         destinySettingsImageView.setOpacity(1);
         saveButton.setDisable(false);
-
 
     }
 
@@ -254,6 +273,15 @@ public class DroneSettingsPanelController extends SettingsPanelController<Drone>
 
         selectedDrone.setDestinyCell(CellController.getInstance().getCellFrom(destI, destJ));
         DroneBusinessObject.updateDistances(selectedDrone);
+
+        String connectionBehavior = connectionBehaviorComboBox.getSelectionModel().getSelectedItem();
+        if (returnBase.equals(connectionBehavior)) {
+            selectedDrone.setReturnBase(true);
+            selectedDrone.setSeekConnection(false);
+        } else if (seekConnection.equals(connectionBehavior)) {
+            selectedDrone.setReturnBase(false);
+            selectedDrone.setSeekConnection(true);
+        }
 
         enableSettingsViews();
     }
@@ -286,6 +314,13 @@ public class DroneSettingsPanelController extends SettingsPanelController<Drone>
         int currentWrapperId = selectedDrone.getWrapperId();
 
         wrapperComboBox.getSelectionModel().select(currentWrapperId);
+
+
+        if (Boolean.TRUE.equals(selectedDrone.isReturnBase())) {
+            connectionBehaviorComboBox.getSelectionModel().select(returnBase);
+        } else if (Boolean.TRUE.equals(selectedDrone.isSeekConnection())) {
+            connectionBehaviorComboBox.getSelectionModel().select(seekConnection);
+        }
 
     }
 

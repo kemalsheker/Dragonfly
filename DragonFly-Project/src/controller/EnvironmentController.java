@@ -4,6 +4,7 @@ import javafx.application.Platform;
 import javafx.scene.Node;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.AnchorPane;
+import jettyDeneme.DroneData;
 import model.entity.*;
 import model.Environment;
 import model.entity.boat.Boat;
@@ -249,6 +250,7 @@ public class EnvironmentController {
 
 
         Drone drone = droneController.createDrone(uniqueID, droneLabel, selectedCellView);
+        DroneData droneData = new DroneData(drone);
 
         this.selectedEntityView = CellController.getInstance().getSelectedEntityView(selectedCellView);
         return drone;
@@ -493,6 +495,8 @@ public class EnvironmentController {
         }
         return cellViewList;
     }
+
+
 
 
     public EnvironmentView getEnvironmentView() {

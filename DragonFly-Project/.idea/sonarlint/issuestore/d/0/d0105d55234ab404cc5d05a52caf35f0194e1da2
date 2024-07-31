@@ -1,54 +1,66 @@
 
 q
-java:S5411ž"(Use a primitive boolean expression here.(¸æ£ãþÿÿÿÿ8žù«‚2J$781af54e-a935-474b-93b0-2a3ae3f333fd
+java:S5411ž"(Use a primitive boolean expression here.(¸æ£ãþÿÿÿÿ8´ûß¡…2J$6c3ac1d4-1bce-4e80-857f-142cea590f2a
 l
-java:S5411´"(Use a primitive boolean expression here.(¸ûÝ8žù«‚2J$4a7a181a-d5bb-4bb2-8afc-8edef2125434
+java:S5411´"(Use a primitive boolean expression here.(¸ûÝ8µûß¡…2J$95a142ce-8745-4509-83cf-ae138b7403f1
+l
+java:S5411µ"(Use a primitive boolean expression here.(†Ò¸‰8ÈÏÝ™‡2J$257c3418-9204-4007-ab31-89935a95a3ce
+l
+java:S5411¹"(Use a primitive boolean expression here.(ëñ÷×8ÈÏÝ™‡2J$5110aaa8-fce5-408f-b683-5d637c4d80e7
+q
+java:S5411Á"(Use a primitive boolean expression here.(ßÈ¨›üÿÿÿÿ8ÉÏÝ™‡2J$7bb12e03-c7f6-4666-af96-9110bd1bdd18
+l
+java:S5411Í"(Use a primitive boolean expression here.(‘ËÅü8°¬ý…2J$12a5b597-32af-43ec-a977-2e38734305db
 Ê
-java:S1186©"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’ÁÖùÿÿÿÿ8ºù«‚2J$d2f5f39e-d135-42cf-be31-3b58e818afbd
+java:S1186ª"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(’ÁÖùÿÿÿÿ8öûß¡…2J$42cd7552-1bfb-41ea-b049-782cf7cc7826
 Å
-java:S1186®"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ë‚áú8ºù«‚2J$2444dfb4-03d7-4b1b-afff-f17a9613d73f
+java:S1186¯"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ë‚áú8öûß¡…2J$070d6293-dcc3-41fe-bed4-76524139a992
 ­
-java:S1450"jRemove the "automaticExecutionStopWatch" field and declare it as a local variable in the relevant methods.(ù‹Í€8¼ù«‚2J$f5e2c0f5-00d5-468d-ae05-d8fbbe2b1210
+java:S1450"jRemove the "automaticExecutionStopWatch" field and declare it as a local variable in the relevant methods.(ù‹Í€8ùûß¡…2J$cb3dc2c5-355e-4fef-bcfb-18a8e320c723
 §
-java:S1450"_Remove the "stopWatchBattery" field and declare it as a local variable in the relevant methods.(‚Ï˜Üûÿÿÿÿ8¼ù«‚2J$e67a1224-527c-4633-879f-06e7344f5d2a
-~	java:S125>"<This block of commented-out lines of code should be removed.(±²Ø•8Áù«‚2J$441a3a0a-6e85-43f1-9b4a-2f9e59545660
-ƒ	java:S125D"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ8Áù«‚2J$6d65aa17-1372-4496-b8a2-57c23e1c2825
-ƒ	java:S125J"<This block of commented-out lines of code should be removed.(Þ¸á¿ýÿÿÿÿ8Áù«‚2J$30ef1291-dd68-4e72-a48e-1616ddf7b34c
-ƒ	java:S125Z"<This block of commented-out lines of code should be removed.(öÜ¥Þÿÿÿÿÿ8Âù«‚2J$d561112e-d9df-4363-9fa0-db726ef8de2c
-~	java:S125^"<This block of commented-out lines of code should be removed.(„‘žÂ8Âù«‚2J$cad83edc-d685-4464-836f-03eb7d921473
-~	java:S125‰"<This block of commented-out lines of code should be removed.(öøú8Ãù«‚2J$b3460bbb-d9ec-4b8d-8bf9-2503e318cf59
-s	java:S106Ú"+Replace this use of System.out by a logger.(ø½×ùÿÿÿÿ8Çù«‚2J$73ae9ca1-1e91-437d-bdb2-75ea1c1ecc17
-s	java:S106á"+Replace this use of System.out by a logger.(¹Š˜ƒýÿÿÿÿ8Çù«‚2J$69b6f68c-74fb-4461-bdc4-6853686507cb
-	java:S125ê"<This block of commented-out lines of code should be removed.(„‘žÂ8Èù«‚2J$a21e7632-e006-4d79-bd70-372df56c4841
+java:S1450"_Remove the "stopWatchBattery" field and declare it as a local variable in the relevant methods.(‚Ï˜Üûÿÿÿÿ8ùûß¡…2J$3fa55c23-4e7d-49ee-828b-c7a0676457fd
+~	java:S125>"<This block of commented-out lines of code should be removed.(±²Ø•8þûß¡…2J$34f546e5-a53e-442a-9cc5-bbbd241f1dfd
+ƒ	java:S125D"<This block of commented-out lines of code should be removed.(×§ŠÕüÿÿÿÿ8þûß¡…2J$4a95f762-f63a-4e22-96d0-ef0457c733d5
+ƒ	java:S125J"<This block of commented-out lines of code should be removed.(Þ¸á¿ýÿÿÿÿ8ÿûß¡…2J$59870c06-dad5-4be3-98a2-53d7a53eaeb6
+ƒ	java:S125Z"<This block of commented-out lines of code should be removed.(öÜ¥Þÿÿÿÿÿ8ÿûß¡…2J$a5ccddbb-4d79-498a-8db0-ab9162ea5f96
+~	java:S125^"<This block of commented-out lines of code should be removed.(„‘žÂ8ÿûß¡…2J$12c2181e-73ae-4917-ad1d-5e5d5d0809ea
+~	java:S125‰"<This block of commented-out lines of code should be removed.(öøú8€üß¡…2J$12ea0e0c-6f53-4a35-8cf2-380348e0ba20
+s	java:S106Ú"+Replace this use of System.out by a logger.(ø½×ùÿÿÿÿ8„üß¡…2J$8d4592ca-e848-4278-adb5-2e5ff2af6448
+s	java:S106á"+Replace this use of System.out by a logger.(¹Š˜ƒýÿÿÿÿ8…üß¡…2J$47abc2df-3e57-4a98-8b59-f952a898f866
+	java:S125ê"<This block of commented-out lines of code should be removed.(„‘žÂ8…üß¡…2J$822e1005-0b5d-4b8a-8732-d89c2d9c842e
 –
-java:S3776²"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Žìž¶8Ìù«‚2J$bf58128b-65bf-477b-9cc6-a47ce8a0bc5d
+java:S3776³"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Žìž¶8ûÐÝ™‡2J$249d0cf0-7df3-45c8-9e91-fd693e96a003
 |
-java:S1854Æ"8Remove this useless assignment to local variable "oldJ".(”ö‡ü8Ìù«‚2J$c59b73c6-82ae-4a03-9eb7-0d4a5c44cd11
+java:S1854Ç"8Remove this useless assignment to local variable "oldJ".(”ö‡ü8‹üß¡…2J$e6456f2e-df8f-4e14-9e37-53c3516658cf
 {
-java:S1854Å"8Remove this useless assignment to local variable "oldI".(ÝÌ¾}8Íù«‚2J$24cc15ba-2c55-4e95-b921-27998d73eb3d
+java:S1854Æ"8Remove this useless assignment to local variable "oldI".(ÝÌ¾}8Œüß¡…2J$fc76f09d-7fb5-4790-b2c1-0c07c5faa7ce
 
-java:S1854ð"FRemove this useless assignment to local variable "newDistanceDestiny".(ÎÅã“üÿÿÿÿ8Íù«‚2J$bdd41d9e-3ae2-4459-ab9b-0ca9aa55ff49
-n	java:S106µ"+Replace this use of System.out by a logger.(ªííÿ8Íù«‚2J$0acb7c1a-4e1b-478c-b06c-b2aa49f12df8
+java:S1854ñ"FRemove this useless assignment to local variable "newDistanceDestiny".(ÎÅã“üÿÿÿÿ8Œüß¡…2J$91227d1f-3fde-419c-a593-5f7eeb60fc56
+n	java:S106¶"+Replace this use of System.out by a logger.(ªííÿ8ŸÌð£…2J$c940c853-7b5d-4b29-a989-f6a390f95531
+n	java:S106º"+Replace this use of System.out by a logger.(ë¶È8„ÑÝ™‡2J$a327d0e3-1ae5-4e1b-a21c-a235c7428b77
+„	java:S125¾"<This block of commented-out lines of code should be removed.(¢ºªÖýÿÿÿÿ8†ÑÝ™‡2J$68c68659-a6ee-4ab1-a6b9-1c1cbdddf90b
+s	java:S106Â"+Replace this use of System.out by a logger.(ú‹¹¨úÿÿÿÿ8ˆÑÝ™‡2J$37388ecf-4a8c-4d9b-b1b1-417ed659e1f9
 l
-java:S1481Å")Remove this unused "oldI" local variable.(ÝÌ¾}8Îù«‚2J$3525d551-d8c4-4046-8e8a-851671122a29
+java:S1481Æ")Remove this unused "oldI" local variable.(ÝÌ¾}8Žüß¡…2J$e36d7470-52f1-4e0c-ac45-0f577fae4a02
 m
-java:S1481Æ")Remove this unused "oldJ" local variable.(”ö‡ü8Ïù«‚2J$31951806-e541-493c-82d5-cc44d667b6ca
-	java:S125ø"<This block of commented-out lines of code should be removed.(ŸˆÆö8Ðù«‚2J$68727410-1e4e-483f-85f6-79879690e20d
-„	java:S125—"<This block of commented-out lines of code should be removed.(æÍÎûÿÿÿÿ8Ñù«‚2J$08499ff4-0abe-489d-9b11-30dddb4f4336
-	java:S125"<This block of commented-out lines of code should be removed.(À¶ôè8Ñù«‚2J$eecb1590-7ffb-428b-8f40-5a2af3caee95
+java:S1481Ç")Remove this unused "oldJ" local variable.(”ö‡ü8üß¡…2J$5177b0a2-4bbc-456c-bf0e-1189f8966feb
+	java:S125ù"<This block of commented-out lines of code should be removed.(ŸˆÆö8üß¡…2J$ac4f5caf-cffc-4a2d-8a34-7a3c6d62a450
+a
+java:S2119˜"Save and re-use this "Random".(¼ÝÅf8“üß¡…2J$96807579-ede5-4626-819b-3e76d772f95c
+s	java:S106°"+Replace this use of System.out by a logger.(³ÓÎÿÿÿÿÿ8™ÒÝ™‡2J$899808c0-2ac8-42d1-ba2a-6f5957690e18
+„	java:S125¼"<This block of commented-out lines of code should be removed.(æÍÎûÿÿÿÿ8—üß¡…2J$d76981d2-d014-4a2f-8c4c-a99c6cd2cf3f
+	java:S125Â"<This block of commented-out lines of code should be removed.(À¶ôè8—üß¡…2J$14c94834-0649-4264-8699-9892f5662700
 z
-java:S1128"2Remove this unused import 'model.entity.Hospital'.(“ öªüÿÿÿÿ8Òù«‚2J$ef10e421-4533-4015-b8ab-4388237bf9a9
+java:S1128"2Remove this unused import 'model.entity.Hospital'.(“ öªüÿÿÿÿ8†ÛÝ£…2J$60e4dabd-7ab8-4742-8d2d-40e50170270a
 z
-java:S1128"7Remove this unused import 'view.hospital.HospitalView'.(”éþä8Òù«‚2J$ec6f214b-6f57-42bb-8e9b-1b2e7f04b75b
+java:S1128"7Remove this unused import 'view.hospital.HospitalView'.(”éþä8†ÛÝ£…2J$f7885cf9-53ce-41cf-952c-f7b57401c222
 s
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Òù«‚2J$b35f74ca-dba7-4ee5-92a4-c3a17af9d83e
-s
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Òù«‚2J$52b98b50-6c32-4016-978f-6781f9d05e48
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8†ÛÝ£…2J$c501bc15-450a-41f7-8f88-ebacc5b2f8d7
 r
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8Òù«‚2J$270150ef-7052-4c59-981a-23e66627dc85
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8†ÛÝ£…2J$e34f67a3-e79c-444e-b6a1-d481179a9d88
 |
-java:S1068"9Remove this unused "environmentController" private field.(­ˆïŒ8Óù«‚2J$d5046451-f001-475a-8d11-254fa0254619
+java:S1068"9Remove this unused "environmentController" private field.(­ˆïŒ8˜üß¡…2J$b52ea922-9124-4cf5-bc87-676db969a34b
 |
-java:S1068"4Remove this unused "stopWatchBattery" private field.(‚Ï˜Üûÿÿÿÿ8Óù«‚2J$4fa1ff80-b484-4af9-a7bb-5e5a93dcf368
+java:S1068"4Remove this unused "stopWatchBattery" private field.(‚Ï˜Üûÿÿÿÿ8˜üß¡…2J$9e766bb3-e698-4228-8489-bec859c7bbc6
 ‚
-java:S1068"?Remove this unused "automaticExecutionStopWatch" private field.(ù‹Í€8Óù«‚2J$9941cab9-cd06-43b7-ba64-7ead9f29ce92
+java:S1068"?Remove this unused "automaticExecutionStopWatch" private field.(ù‹Í€8˜üß¡…2J$f46dacf2-7c96-40f1-8123-0b889ad0c31f

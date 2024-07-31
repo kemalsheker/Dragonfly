@@ -17,8 +17,6 @@ import java.util.List;
 
 public class Drone extends Entity {
 
-    //Do not changes in Runtime
-
     private Cell sourceCell = CellController.getInstance().getCellFrom(0,0);
     private Cell destinyCell = CellController.getInstance().getCellFrom(0,0);
 
@@ -57,6 +55,19 @@ public class Drone extends Entity {
 
     private Boolean selected = false;
 
+    private Boolean returnBase = false;
+
+    private Boolean seekConnection = false;
+
+    private Boolean emergencyLanding = false;
+
+
+    private boolean overrideGoDestinyAutomaticFlag = false;
+    private boolean executeLanding = false;
+    private boolean safeLanding = false;
+    private boolean emergency = false;
+
+
 
     private List<SelectableView> onTopOfList = new ArrayList<>();
     private List<Listener> listeners = new ArrayList<>();
@@ -66,6 +77,8 @@ public class Drone extends Entity {
 
     private int wrapperId = 0;
     private String label = "";
+
+
 
 
     public Drone(String uniqueID, String label, Cell sourceCell) {
@@ -116,6 +129,43 @@ public class Drone extends Entity {
     }
 */
 
+    public Boolean isReturnBase() {
+        return returnBase;
+    }
+
+    public void setReturnBase(Boolean returnBase) {
+        Boolean oldValue = this.returnBase;
+        Boolean newValue = returnBase;
+
+        if (oldValue == newValue) {
+            return;
+        }
+
+        this.returnBase = returnBase;
+
+        notifiesListeners(Thread.currentThread().getStackTrace()[1].getMethodName(), oldValue, newValue);
+    }
+
+
+    public Boolean isSeekConnection() {
+        return seekConnection;
+    }
+
+    public void setSeekConnection(Boolean seekConnection) {
+        Boolean oldValue = this.seekConnection;
+        Boolean newValue = seekConnection;
+
+        if (oldValue == newValue) {
+            return;
+        }
+
+        this.seekConnection = seekConnection;
+
+        notifiesListeners(Thread.currentThread().getStackTrace()[1].getMethodName(), oldValue, newValue);
+    }
+
+    public Boolean getSeekConnection() {return this.seekConnection;}
+
     public Boolean getLanding() {
         return landing;
     }
@@ -153,7 +203,6 @@ public class Drone extends Entity {
         this.wrapperId = wrapperId;
 
         notifiesListeners(Thread.currentThread().getStackTrace()[1].getMethodName(),oldValue, newValue);
-
     }
 
     public void setIsSafeland(boolean isSafeland) {
@@ -194,6 +243,8 @@ public class Drone extends Entity {
 
         notifiesListeners(Thread.currentThread().getStackTrace()[1].getMethodName(),oldValue, newValue);
     }
+
+
 
     public boolean isManual() {
         return isManual;
@@ -671,7 +722,66 @@ public class Drone extends Entity {
         return label;
     }
 
+    public void setOverrideGoDestinyAutomaticFlag(boolean flag) {
+        boolean oldValue = this.overrideGoDestinyAutomaticFlag;
+        boolean newValue = flag;
 
+        if(oldValue == newValue){
+            return;
+        }
+
+        this.overrideGoDestinyAutomaticFlag = flag;
+
+        notifiesListeners(Thread.currentThread().getStackTrace()[1].getMethodName(),oldValue, newValue);
+
+    }
+
+    public Boolean getOverrideGoDestinyAutomaticFlag(){return this.overrideGoDestinyAutomaticFlag; }
+
+    public void setExecuteLanding(boolean flag) {
+        boolean oldValue = this.executeLanding;
+        boolean newValue = flag;
+
+        if(oldValue == newValue){
+            return;
+        }
+
+        this.executeLanding = flag;
+
+        notifiesListeners(Thread.currentThread().getStackTrace()[1].getMethodName(),oldValue, newValue);
+    }
+
+    public Boolean getExecuteLanding() {return this.executeLanding;}
+
+    public void setSafeLanding(boolean flag) {
+        boolean oldValue = this.safeLanding;
+        boolean newValue = flag;
+
+        if(oldValue == newValue){
+            return;
+        }
+
+        this.safeLanding = flag;
+
+        notifiesListeners(Thread.currentThread().getStackTrace()[1].getMethodName(),oldValue, newValue);
+    }
+
+    public Boolean getSafeLanding() {return this.safeLanding;}
+
+    public void setEmergency(boolean flag) {
+        boolean oldValue = this.emergency;
+        boolean newValue = flag;
+
+        if(oldValue == newValue){
+            return;
+        }
+
+        this.emergency = flag;
+
+        notifiesListeners(Thread.currentThread().getStackTrace()[1].getMethodName(),oldValue, newValue);
+    }
+
+    public Boolean getEmergency() {return this.emergency;}
 
 
     public interface Listener{

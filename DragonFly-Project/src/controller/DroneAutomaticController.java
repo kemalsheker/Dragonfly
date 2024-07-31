@@ -17,6 +17,7 @@ import view.hospital.HospitalView;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 public class DroneAutomaticController extends DroneController {
 
@@ -28,8 +29,7 @@ public class DroneAutomaticController extends DroneController {
 
 
 
-    private DroneAutomaticController() {
-    }
+    private DroneAutomaticController() {}
 
 
     public static DroneController getInstance() {
@@ -277,6 +277,7 @@ public class DroneAutomaticController extends DroneController {
 
         dataMap.put(uniqueID, droneData);
 
+        drone.addListener(droneData);
 
         return drone;
     }
@@ -305,20 +306,20 @@ public class DroneAutomaticController extends DroneController {
 
     private void goDestinyAutomatic(Drone drone) {
         //essas tres condições são necessárias por causa do problema das threads
-        if (DroneController.getInstance().overrideGoDestinyAutomaticFlag) {
+        if (/*DroneController.getInstance().overrideGoDestinyAutomaticFlag*/drone.getOverrideGoDestinyAutomaticFlag()) {
             System.out.println("GroundSearch Adaptation logic here");
             moveASide(drone);
         }
+        else if(/*DroneController.getInstance().seekConnection*/drone.getSeekConnection()){
+            System.out.println("Seek Connection logic here");
+            findBetterConnection(drone);
+        }
         else {
-            if(drone.isSafeLand()){
+            /*if(DroneController.getInstance().safeLanding || drone.isShutDown() || DroneController.getInstance().executeLanding){
                 return;
-            }
-
-            if(drone.isShutDown()){
-                return;
-            }
-
-            if(DroneController.getInstance().executeLanding){
+            }*/
+            if(drone.getSafeLanding() || drone.isShutDown() || drone.getExecuteLanding()){
+                System.out.println("Go Destiny automatic function must stop.");
                 return;
             }
 
@@ -329,7 +330,7 @@ public class DroneAutomaticController extends DroneController {
             CellView hopitalCellView = null;
 
             CellView droneCellView = DroneController.getInstance().getDroneViewFrom(drone.getUniqueID()).getCurrentCellView();
-            if(drone.isReturningToHome()){
+            if(drone.isReturnBase()){
                 //go to source hospital (return to home)
                 hopitalCellView = CellController.getInstance().getCellViewFrom(drone.getSourceCell());
 
@@ -400,6 +401,42 @@ public class DroneAutomaticController extends DroneController {
             DroneBusinessObject.goTo(drone, goDirection);
         }
     }
+
+
+    private void findBetterConnection(Drone drone) {
+        DroneView droneView = DroneController.getInstance().getDroneViewFrom(drone.getUniqueID());
+        Random random = new Random();
+
+        CellView targetCellView = CellController.getInstance().getCellViewFrom(drone.getDestinyCell());
+
+
+        while (Boolean.TRUE.equals(drone.isBadConnection())) {
+            List<Integer> validDirections = DroneBusinessObject.getValidDirections(droneView, targetCellView);
+
+            int direction = validDirections.get(random.nextInt(validDirections.size()));
+
+            switch (direction) {
+                case 0:
+                    DroneBusinessObject.flyingUp(drone);
+                    break;
+                case 1:
+                    DroneBusinessObject.flyingDown(drone);
+                    break;
+                case 2:
+                    DroneBusinessObject.flyingLeft(drone);
+                    break;
+                case 3:
+                    DroneBusinessObject.flyingRight(drone);
+                    break;
+                default:
+                    System.out.println("Direction is not picked for find better connection.");
+                    break;
+            }
+            // Update the connection status after moving
+            DroneBusinessObject.updateConnectionStatus(drone);
+        }
+    }
+
 
 
 
